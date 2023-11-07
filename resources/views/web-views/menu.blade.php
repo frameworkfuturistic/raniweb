@@ -19,7 +19,7 @@
                 <li><a class="faicon-linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
                 <li><a class="faicon-google-plus" href="#"><i class="fa fa-google-plus"></i></a></li>
                 <li><a class="faicon-rss" href="#"><i class="fa fa-rss"></i></a></li>
-                <li><a class="faicon-rss" href="blog/admin/login.php"><i class="fa fa-sign-in" aria-hidden="true"></i></a></li>
+                <li><a class="faicon-rss" href="/login"><i class="fa fa-sign-in" aria-hidden="true"></i></a></li>
                 <li><a class="faicon-map" target="_blank" href="https://www.google.com/maps/dir/23.3478614,85.303271/rani+hospital+ranchi/@23.3657258,85.2944984,14z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x39f4e11843d380af:0x39715bc46113cea3!2m2!1d85.3222526!2d23.3826291"><i class="fa fa-map-marker" aria-hidden="true"></i></a></li>
             </ul>
         </div>
