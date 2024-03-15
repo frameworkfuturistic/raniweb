@@ -1,4 +1,4 @@
-<?php
+ <?php
 //include connection
 // $db=mysqli_connect("localhost","root","","rani",3307);
 // $sql="select * from blog_posts where topic='topic-1' order by postID desc limit 8";

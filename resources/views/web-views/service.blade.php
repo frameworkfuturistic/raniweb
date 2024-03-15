@@ -12,13 +12,16 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="Keywords" content="Children Hospital, Hospital, Jharkhand, Ranchi, Multispecialty, ICU, Neonatal ICU, 24x7 Critical Care Ambulance Service">
-    <meta name="Description" content="Rani Hospital is the largest Children Hospital in Jharkhand. 250 bedded hospital with modern clinical and surgical facilities for infants and children.">
+    <meta name="Keywords"
+        content="Children Hospital, Hospital, Jharkhand, Ranchi, Multispecialty, ICU, Neonatal ICU, 24x7 Critical Care Ambulance Service">
+    <meta name="Description"
+        content="Rani Hospital is the largest Children Hospital in Jharkhand. 250 bedded hospital with modern clinical and surgical facilities for infants and children.">
     <title>Rani Hospital</title>
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:600italic,400,800,700,300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:600italic,400,800,700,300' rel='stylesheet'
+        type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=BenchNine:300,400,700' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Ibarra+Real+Nova&display=swap" rel="stylesheet">
     <!-- favicon -->
@@ -275,11 +278,11 @@
 <body>
 
     <!-- ====================================================
-	header section -->
+ header section -->
     @include('web-views.menu')
     <!-- end of header area -->
     <!--all services  -->
-    <section class="about text-center">
+    <section class="text-center about">
         <div class="container">
             <div class="row">
                 <h2>Services</h2>
@@ -297,21 +300,24 @@
                                 <div class="col-md-4">
                                     <div class="panel panel-default">
                                         <div class="panel-body">
-                                            <img class="tieup-img" src="http://sparrowsoftech.com/img/client_logo/boi.png" alt="">
+                                            <img class="tieup-img"
+                                                src="http://sparrowsoftech.com/img/client_logo/boi.png" alt="">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-md-4">
                                     <div class="panel panel-default">
                                         <div class="panel-body">
-                                            <img class="tieup-img" src="http://sparrowsoftech.com/img/client_logo/ner.png" alt="">
+                                            <img class="tieup-img"
+                                                src="http://sparrowsoftech.com/img/client_logo/ner.png" alt="">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-md-4">
                                     <div class="panel panel-default">
                                         <div class="panel-body">
-                                            <img class="tieup-img" src="http://sparrowsoftech.com/img/client_logo/suda.png" alt="">
+                                            <img class="tieup-img"
+                                                src="http://sparrowsoftech.com/img/client_logo/suda.png" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -323,21 +329,24 @@
                                 <div class="col-md-4">
                                     <div class="panel panel-default">
                                         <div class="panel-body">
-                                            <img class="tieup-img" src="http://sparrowsoftech.com/img/client_logo/boi.png" alt="">
+                                            <img class="tieup-img"
+                                                src="http://sparrowsoftech.com/img/client_logo/boi.png" alt="">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-md-4">
                                     <div class="panel panel-default">
                                         <div class="panel-body">
-                                            <img class="tieup-img" src="http://sparrowsoftech.com/img/client_logo/ner.png" alt="">
+                                            <img class="tieup-img"
+                                                src="http://sparrowsoftech.com/img/client_logo/ner.png" alt="">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-md-4">
                                     <div class="panel panel-default">
                                         <div class="panel-body">
-                                            <img class="tieup-img" src="http://sparrowsoftech.com/img/client_logo/suda.png" alt="">
+                                            <img class="tieup-img"
+                                                src="http://sparrowsoftech.com/img/client_logo/suda.png" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -361,14 +370,25 @@
                     <div class="col-sm-3">
                         <!-- left tab -->
                         <ul class="nav nav-pills nav-stacked">
-                            <li class="active"><a data-toggle="tab" href="#Paediatrics" aria-expanded="true" class="active">Ambulance Services</a></li>
-                            <li class=""><a data-toggle="tab" href="#Neonatology" class="" aria-expanded="false">Laboratory Services</a></li>
-                            <li class=""><a data-toggle="tab" href="#allergy" class="" aria-expanded="false">Radiology</a></li>
-                            <li class=""><a data-toggle="tab" href="#emergency" class="" aria-expanded="false">Pharmacy
+                            <li class="active"><a data-toggle="tab" href="#Paediatrics" aria-expanded="true"
+                                    class="active">Ambulance Services</a></li>
+                            <li class=""><a data-toggle="tab" href="#Neonatology" class=""
+                                    aria-expanded="false">Laboratory Services</a></li>
+                            <li class=""><a data-toggle="tab" href="#allergy" class=""
+                                    aria-expanded="false">Radiology</a></li>
+                            <li class=""><a data-toggle="tab" href="#emergency" class=""
+                                    aria-expanded="false">Pharmacy
                                     Services </a></li>
-                            <li class=""><a data-toggle="tab" href="#Endocrinology" class="" aria-expanded="false">Vaccination </a></li>
-                            <li class=""><a data-toggle="tab" href="#Cardiology" class="" aria-expanded="false">Immunisation Schedule </a></li>
-                            <li><a data-toggle="tab" href="#Critical">OPD Services </a></li>
+                            <li class=""><a data-toggle="tab" href="#Endocrinology" class=""
+                                    aria-expanded="false">Vaccination </a></li>
+                            <li class=""><a data-toggle="tab" href="#Cardiology" class=""
+                                    aria-expanded="false">Immunisation Schedule </a></li>
+                            <li><a data-toggle="tab" href="#Critical">OPD Services </a></li> 
+                            <li><a data-toggle="tab" href="#NeonatologyFacilities"> Neonatology Facilities </a></li>
+                            <li><a data-toggle="tab" href="#PedriaticIntensiveCare"> Pedriatic Intensive Care </a></li>
+                             <li><a data-toggle="tab" href="#PedriaticSurgery">Pedriatic Surgery</a></li>
+                             <li><a data-toggle="tab" href="#PediatricGastroentrology">Pediatric Gastroentrology</a></li>
+                           
                         </ul>
                     </div>
                     <!-- left tab -->
@@ -376,7 +396,7 @@
                     <div class="col-sm-9">
                         <div class="tab-content">
                             <div id="Paediatrics" class="tab-pane fade active in">
-                                <h3><i class="fa fa-spinner"></i> AMBULANCE SERVICES</h3>
+                                <h2><i class="fa fa-spinner"></i> AMBULANCE SERVICES</h2>
                                 <blockquote>
                                     <p class="p">
                                         The fleet of ambulances at Rani Hospital are well-equipped with emergency
@@ -384,14 +404,16 @@
                                         basic life support equipments to facilitate efficient and timely
                                         transportation
                                         of patients
-                                        to and from the hospital under the care of trained personnel. Our critical care ambulance is equipped with transport ventilitor and transport incubator.
+                                        to and from the hospital under the care of trained personnel. Our critical care
+                                        ambulance is equipped with transport ventilitor and transport incubator.
                                         <br>
                                         The ambulances are critical to transport patients to our partner
                                         tertiary-care
                                         paediatric
                                         hospitals in Kolkata.
                                         <br>
-                                        To use the ambulance service call <strong><a href="tel:7677111010">[7677111010,0651-2360430/35]</a></strong>
+                                        To use the ambulance service call <strong><a
+                                                href="tel:7677111010">[7677111010,0651-2360430/35]</a></strong>
                                     </p>
                                     <div class="col-md-6">
                                         <img src="img/ambulance.jpg" alt="" style="width:100%;">
@@ -402,7 +424,7 @@
                                 </blockquote>
                             </div>
                             <div id="Neonatology" class="tab-pane fade">
-                                <h3><i class="fa fa-spinner"></i> LABORATORY SERVICES</h3>
+                                <h2><i class="fa fa-spinner"></i> LABORATORY SERVICES</h2>
                                 <div class="col-md-6">
                                     <img src="img/lab1.jpg" alt="" style="width:100%;">
                                 </div>
@@ -428,7 +450,7 @@
                                 </div>
                             </div>
                             <div id="allergy" class="tab-pane fade">
-                                <h3><i class="fa fa-spinner"></i> RADIOLOGY</h3>
+                                <h2><i class="fa fa-spinner"></i> RADIOLOGY</h2>
                                 <div class="col-md-6">
                                     <blockquote>
                                         <p class="p">
@@ -457,7 +479,7 @@
                                 </div>
                             </div>
                             <div id="emergency" class="tab-pane fade">
-                                <h3><i class="fa fa-spinner"></i> PHARMACY SERVICES</h3>
+                                <h2><i class="fa fa-spinner"></i> PHARMACY SERVICES</h2>
                                 <blockquote>
                                     <p class="p">
                                         The Pharmacy (outsourced) located on the ground floor of the Hospital caters
@@ -469,7 +491,7 @@
                             </div>
                             <!-- endocrinology -->
                             <div id="Endocrinology" class="tab-pane fade">
-                                <h3><i class="fa fa-spinner"></i> VACCINATION</h3>
+                                <h2><i class="fa fa-spinner"></i> VACCINATION</h2>
                                 <blockquote>
                                     <p class="p">
                                         Vaccination is a proven method of preventive care as they are known to
@@ -636,7 +658,7 @@
                             <!-- endocrinology -->
                             <!-- cardiology -->
                             <div id="Cardiology" class="tab-pane fade">
-                                <h3><i class="fa fa-spinner"></i> Immunisation Schedule</h3>
+                                <h2><i class="fa fa-spinner"></i> Immunisation Schedule</h2>
                                 <blockquote>
                                     <p class="p">
                                         With some diseases your child’s immunity will eventually wear off, and so
@@ -667,7 +689,7 @@
                             <!-- cardiology -->
                             <!-- Critical care -->
                             <div id="Critical" class="tab-pane fade">
-                                <h3><i class="fa fa-spinner"></i> OPD SERVICES</h3>
+                                <h2><i class="fa fa-spinner"></i> OPD SERVICES</h2>
                                 <blockquote>
                                     <p class="p">As the pioneer healthcare provider in Jharkhand, we are aware of
                                         our
@@ -712,16 +734,355 @@
                                     <img src="img/OPDwaiting_area.jpg" alt="" style="width:100%;">
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    <!-- right content -->
-                </div>
-                <!-- tabs -->
-            </div>
-    </section>
+                            <!-- pediatricGastroentrology -->
+                            <div id="pediatricGastroentrology" class="tab-pane fade">
+                                <h2><i class="fa fa-spinner"></i> PEDIATRIC GASTROENTEROLOGY </h2>
+                                <blockquote>
+                                    <p class="p ">
+                                        <u>
+                                            DIAGNOSTIC
+                                        </u>
+                                        <br>
+                                        <br>
+                                        <i class="fa fa-external-link"></i> 1. UPPER GI ENDOSCOPY
+                                        <br>
+                                        <i class="fa fa-external-link"></i> 2. COLONOSCOPY
+                                        <br>
+                                        <i class="fa fa-external-link"></i> 3. SIGMOIDOSCOPY
+                                        <br>
+                                        <i class="fa fa-external-link"></i> 4. LIVER BIOPSY
+                                        <br>
+
+                                        <br>
+
+                                    </p>
+                                </blockquote>
+                                <blockquote>
+                                    <p class="p">
+                                        <u>
+                                            THERAPEUTIC
+                                        </u>
+                                        <br>
+                                        <br>
+                                        <i class="fa fa-external-link"></i> EVL BANDING
+                                        <br>
+                                        <i class="fa fa-external-link"></i> ENDOSCOPIC SCLEROTHERAPY
+                                        <br>
+                                        <i class="fa fa-external-link"></i> DILATATION OF STRICTURE (BOTH CRE AND SG)
+                                        <br>
+                                        <i class="fa fa-external-link"></i> FOREIGN BODY REMOVAL
+                                        <br>
+
+                                        <i class="fa fa-external-link"></i> PEG TUBE INSERTION
+                                        <br>
+
+                                        <br>
+
+                                    </p>
+                                </blockquote>
+                                <div class="col-md-6">
+                                    <img src="img/consultationchamber.jpg" alt="" style="width:100%;">
+                                </div>
+                                <div class="col-md-6">
+                                    <img src="img/OPDwaiting_area.jpg" alt="" style="width:100%;">
+                                </div>
+                            </div>
+                            <!-- NEONATOLOGY FACILITIES-->
+                            <div id="NeonatologyFacilities" class="tab-pane fade">
+                                <h2><i class="fa fa-spinner"></i> NEONATOLOGY </h2>
+                                
+                                <blockquote>
+                                
+                                    <p class="p ">
+                                      <br>
+                                        <u>
+                                            FACILITIES
+                                        </u>
+                                          <br>
+                                         <br>
+                                        <u class="text-danger font-weight-normal bg-danger"> 
+                                        <i class="fa fa-external-link text-danger bg-danger " ></i> UPCOMMING :-DrNB NEONATOLOGY PROGRAMME
+                                        </u>
+                                        <br>
+                                        <br>
+                                        <i class="fa fa-external-link"></i> • NICU LEVEL- III
+                                        <br>
+                                        <i class="fa fa-external-link"></i> • SURFACTANT THERAPY
+                                        <br>
+                                        <i class="fa fa-external-link"></i> • PHOTOTHERAPY
+                                        <br>
+                                        <i class="fa fa-external-link"></i> • EXCHANGE TRANSFUSION
+
+                                        <br>
+                                        <i class="fa fa-external-link"></i> • VENTILATOR
+
+                                        <br>
+                                        <i class="fa fa-external-link"></i> • HHFNC
+
+                                        <br>
+                                        <i class="fa fa-external-link"></i> • NIV
+
+                                        <br>
+                                        <i class="fa fa-external-link"></i> • WARMER
+
+                                        <br>
+                                        <i class="fa fa-external-link"></i> • MULTIPARA MONITOR
+
+                                        <br>
+                                        <i class="fa fa-external-link"></i>• INFUSION PUMP
+
+                                        <br>
+                                        <i class="fa fa-external-link"></i>• BED SIDE X-RAY
+
+                                        <br>
+                                        <i class="fa fa-external-link"></i>• BED SIDE USG
+
+                                        <br>
+                                        <i class="fa fa-external-link"></i>• UMBILICAL CATHETER INSERTION
+                                        <br>
+
+                                        <br>
+
+                                    </p>
+                                </blockquote>
+                                <blockquote>
+                                    <p class="p">
+                                        <u>
+                                            UNIQUE FACILITIES
+                                        </u>
+                                        <br>
+                                        <br>
+                                        <i class="fa fa-external-link"></i> • HIGH FREQUENCY OSCILLATORY VENTILATION
+                                        (HFOV)
+                                        <br>
+                                        <i class="fa fa-external-link"></i>• BLOOD BANK
+                                        <br>
+                                        <i class="fa fa-external-link"></i>• CRASH CART INTENSIVE PHOTOTHERAPY
+                                        <br>
+                                        <i class="fa fa-external-link"></i>• BED SIDE aEEG FOR CONTINUOUS MONITORING
+                                        <br>
+                                        <i class="fa fa-external-link"></i>• BED SIDE ECHO ROUND THE CLOCK
+
+                                        <br>
+                                        <i class="fa fa-external-link"></i>• BED SIDE USG SKULL & LUNGS ROUND THE CLOCK
+
+                                        <br>
+                                        <i class="fa fa-external-link"></i>• MILK BANK
+
+                                        <br>
+                                        <i class="fa fa-external-link"></i> • NITRIC OXIDE THERAPY
+                                        <br>
+                                        <i class="fa fa-external-link"></i> • THERAPEUTIC HYPOTHERMIA (FULL BODY
+                                        COOLING)
+                                        <br>
+                                        <i class="fa fa-external-link"></i>• ROUND THE CLOCK PRESENCE OF MD/DM DOCTOR
+                                        <br>
+                                        <i class="fa fa-external-link"></i>• ROP : SCREENING AND INTRAVITREAL VEGF
+                                        INJECTION
+                                        <br>
+                                        <br>
+                                        
+                                        <br>
+
+                                    </p>
+                                </blockquote>
+                                <div class="col-md-6">
+                                    <img src="img/consultationchamber.jpg" alt="" style="width:100%;">
+                                </div>
+                                <div class="col-md-6">
+                                    <img src="img/OPDwaiting_area.jpg" alt="" style="width:100%;">
+                                </div>
+                            </div>
+                            
+                          <!-- PEDIATRIC INTENSIVE CARE -->
+                           <div id="PedriaticIntensiveCare" class="tab-pane fade">
+                                <h2><i class="fa fa-spinner"></i> PEDIATRIC INTENSIVE CARE </h2>
+                                <blockquote>
+                                
+                                    <p class="p ">
+                                      <br>
+                                        <u>
+                                            TWO FULL TIME CONSULTANTS
+                                        </u>
+                                          <br>
+                                         <br>
+                                        <u class="text-danger font-weight-normal bg-danger"> 
+                                        <i class="fa fa-external-link text-danger bg-danger " ></i> UPCOMMING :-  HEMODIALYSIS 
+                                        </u>
+                                        <br>
+                                   <br>
+                                        <i class="fa fa-external-link"></i>1.	DrNB PICU
+                                        <br>
+                                        <i class="fa fa-external-link"></i> 2.	PDCC PICU
+                                       
+
+                                    </p>
+                                </blockquote>
+                                <blockquote>
+                                    <p class="p">
+                                        <u>
+                                           FACILITIES:
+                                        </u>
+                                        <br>
+                                        <br>
+                                        <i class="fa fa-external-link"></i> •	VENTILATOR
+                                        (HFOV)
+                                        <br>
+                                        <i class="fa fa-external-link"></i>•	PERITONEAL DIALYSIS
+                                        <br>
+                                        <i class="fa fa-external-link"></i>•	BED SIDE ULTRASOUND
+                                        <br>
+                                        <i class="fa fa-external-link"></i>•	ONSD MONITORING FOR RAISED ICP
+                                        <br>
+                                        <i class="fa fa-external-link"></i>•	BED SIDE ECHO
+
+                                        <br>
+                                        <i class="fa fa-external-link"></i>•	CENTRAL LINE INSERTION ROUND THE CLOCK
+
+                                         
+                                        
+                                       
+
+                                    </p>
+                                </blockquote>
+                                <div class="col-md-6">
+                                    <img src="img/consultationchamber.jpg" alt="" style="width:100%;">
+                                </div>
+                                <div class="col-md-6">
+                                    <img src="img/OPDwaiting_area.jpg" alt="" style="width:100%;">
+                                </div>
+                            </div>
+
+
+                            <div id="PedriaticSurgery" class="tab-pane fade">
+                                 <h2><i class="fa fa-spinner"></i> Pedriatic Surgery </h2>   
+                                  <blockquote>
+                                    <p class="p">
+                                        <u>
+                                         RUNNIG PROGRAMME 
+                                        </u>
+                                       
+                                        <br>
+                                        <br>
+                                        <i class="fa fa-external-link"></i> DrNB PEDIATRIC SURGERY PROGRAMME
+                                        <br>
+                                        <br>
+                                        
+                                         <u>
+                                        OTHER SURGICAL SPECIALITIES:
+                                        </u>
+                                          <br>
+                                          <br>
+                                        <i class="fa fa-external-link"></i>1.	NEURO SURGERY (MCH NEUROSURGERY)
+                                        <br>
+                                        <i class="fa fa-external-link"></i>2.	URO SURGERY (MCH UROLOGY)
+                                        <br>
+                                        <i class="fa fa-external-link"></i>3.	TRANSURETHRAL CYSTOSCOPIC PROCEDURES
+                                        <br>
+                                        <i class="fa fa-external-link"></i>4.	TRANSURETHRAL PUV FULGURATION
+
+                                       
+
+                                         
+                                        
+                                       
+
+                                    </p>
+                                </blockquote>  
+                                  <blockquote>
+                                
+                                    <p class="p ">
+                                      <br>
+                                      
+                                         
+                                         
+                                
+                                        <i class="fa fa-external-link"></i>•	DEDICATED FULLY EQUIPED (4 OT)
+                                        <br>
+                                        <i class="fa fa-external-link"></i> •	NEONATAL SURGERY& DEDICATED NEONATAL OT
+                                        <br>
+                                        <i class="fa fa-external-link"></i> •	LAPAROSCOPIC SURGERY
+                                        <br>
+                                        <i class="fa fa-external-link"></i> •	BRONCHOSCOPIC FOREIGN BODY REMOVAL
+                                        <br>
+                                        <i class="fa fa-external-link"></i> •	ENDOSCOPIC FOREIGN BODY REMOVAL
+                                        <br>
+                                        <i class="fa fa-external-link"></i> •	VP SHUNT INSERTION
+                                       
+
+                                    </p>
+                                </blockquote>
+                               
+                            </div>
+                            <div id="PediatricGastroentrology" class="tab-pane fade">
+                                 <h2><i class="fa fa-spinner"></i>PEDIATRIC GASTROENTEROLOGY </h2>   
+                                  <blockquote>
+                                    <p class="p">
+                                        <u>
+                                         DIAGNOSTIC
+                                        </u>
+                                      <br>
+                                        <br>
+                                        <i class="fa fa-external-link"></i>1.	UPPER GI ENDOSCOPY
+                                        <br>
+                                     <i class="fa fa-external-link"></i>2.	COLONOSCOPY
+                                        <br>
+                                        <i class="fa fa-external-link"></i>3.	SIGMOIDOSCOPY
+                                        <br>
+                                        <i class="fa fa-external-link"></i>4.	LIVER BIOPSY
+                                         </p>
+                                </blockquote>  
+                                  <blockquote>
+                                
+                                    <p class="p ">
+                                      
+                                       <u>
+                                         THERAPEUTIC
+                                        </u>
+                                           <br>
+                                           <br>
+                                         
+                                
+                                        <i class="fa fa-external-link"></i>•	EVL BANDING
+                                        <br>
+                                        <i class="fa fa-external-link"></i>•	ENDOSCOPIC SCLEROTHERAPY
+                                        <br>
+                                        <i class="fa fa-external-link"></i> •	POLYPECTOMY
+                                        <br>
+                                        <i class="fa fa-external-link"></i> •	DILATATION OF STRICTURE (BOTH CRE AND SG)
+                                        <br>
+                                        <i class="fa fa-external-link"></i>•	FOREIGN BODY REMOVAL
+                                        <br>
+                                        <i class="fa fa-external-link"></i>•	PEG TUBE INSERTION
+                                       
+
+                                    </p>
+                                </blockquote>
+                               
+                            </div>
+                          </div>
+
+
+                         
+
+
+                          
+                           
+
+
+
+
+
+
+
+                        
+                     
+                       
+           
+      </section>
     <!-- all services -->
     <!-- Service -->
-    <section class="service text-center" id="service">
+    <section class="text-center service" id="service">
         <div class="container">
             <div class="row">
                 <h2>our services</h2>
@@ -804,7 +1165,7 @@
     <!-- footer starts here -->
     @include('web-views.footer')
     <!-- script tags
-	============================================================= -->
+ ============================================================= -->
 
     <script src="js/jquery-2.1.1.js"></script>
     <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
