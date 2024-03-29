@@ -473,8 +473,7 @@
                                             <i class="fa fa-external-link"></i>2. VBG 15 MIN
                                             <br>
                                             <i class="fa fa-external-link"></i>3. CRP, LFT, KFT 1 HOUR
-                                            <br>
-                                            <i class="fa fa-external-link"></i>3. CRP, LFT, KFT 1 HOUR
+                                             
                                             <br>
                                             <i class="fa fa-external-link"></i>4. BLOOD CULTURE 48 HOURS
                                             UNIQUE FEATURES:

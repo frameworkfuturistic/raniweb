@@ -996,7 +996,9 @@
                                     <button type="button" class="btn btn-primary"> About</button>
                                 </div>
                             </div>
+                            <!-- 
                             <div class="col-md-2 single-member col-sm-4">
+                             
                                 <div class="person-detail">
                                     <div class="arrow-top"></div>
                                     <h4>Dr. Shakti Pad Das</h4>
@@ -1004,27 +1006,18 @@
                                     <p>Senior Consultant Paediatrics/Neonatology</p> <br>
                                     <button type="button" class="btn btn-primary"> About</button>
                                 </div>
-
+                                
+ 
                                 <div class="person">
                                     <img class="img-responsive" src="img/drsakti.jpg" alt="member-5">
-                                    <!-- <img class="img-responsive" src="img/member2.jpg" alt="member-2"> -->
-                                </div>
+                                   <img class="img-responsive" src="img/member2.jpg" alt="member-2"> 
+                                     </div>
+                                 
+                               
                             </div>
-                            <div class="col-md-2 single-member col-sm-4">
-                                <div class="person">
-                                    <!-- <img class="img-responsive" src="img/drsakti.jpg" alt="member-3"> -->
-                                    <img class="img-responsive" src="doctors/vinod.jpg" alt="member-1">
-                                </div>
-                                <div class="person-detail">
-                                    <div class="arrow-bottom"></div>
-                                    <h4>Dr. Vinod Kumar</h4>
-                                    <p><strong>MBBS, DCH</strong></p>
-                                    <p>Fellowship in Neonatology <br>
-                                        Senior Consultant Neonatology/Paediatrics</p>
-                                    <button type="button" class="btn btn-primary"> About</button>
-                                </div>
-                            </div>
-                            <div class="col-md-2 single-member col-sm-4">
+                            --> 
+                            
+                             <div class="col-md-2 single-member col-sm-4">
                                 <div class="person-detail">
                                     <div class="arrow-top"></div>
                                     <h4>Dr. Md. Khalid</h4>
@@ -1036,6 +1029,7 @@
                                     <img class="img-responsive" src="doctors/mdkhalid.jpg" alt="member-5">
                                 </div>
                             </div>
+                            <!--  
                             <div class="col-md-2 single-member col-sm-4">
                                 <div class="person">
                                     <img class="img-responsive" src="doctors/jaiprakash.jpg" alt="member-5">
@@ -1050,7 +1044,24 @@
                                     </p>
                                 </div>
                             </div>
-                            <div class="col-md-2 single-member col-sm-4">
+                            --> 
+                           
+                           
+                             <div class="col-md-2 single-member col-sm-4">
+                                <div class="person">
+                                    <!-- <img class="img-responsive" src="img/drsakti.jpg" alt="member-3"> -->
+                                    <img class="img-responsive" src="doctors/vinod.jpg" alt="member-1">
+                                </div>
+                                <div class="person-detail">
+                                    <div class="arrow-bottom"></div>
+                                    <h4>Dr. Vinod Kumar</h4>
+                                    <p><strong>MBBS, DCH</strong></p>
+                                    <p>Fellowship in Neonatology <br>
+                                        Senior Consultant Neonatology/Paediatrics</p>
+                                    <button type="button" class="btn btn-primary"> About</button>
+                                </div>
+                            </div>
+                             <div class="col-md-2 single-member col-sm-4">
                                 <div class="person-detail">
                                     <div class="arrow-top"></div>
                                     <h4>Dr. Ramanuj Kumar</h4>
@@ -1068,7 +1079,7 @@
                         <!-- item3 -->
                         <!-- item3 -->
                         <div class="item">
-                            <div class="col-md-2 single-member col-sm-4">
+                        <!--   <div class="col-md-2 single-member col-sm-4">
                                 <div class="person">
                                     <img class="img-responsive" src="doctors/jainendra.jpg" alt="member-1">
                                 </div>
@@ -1080,7 +1091,8 @@
                                     <p>Paediatric Surgeon</p> <br><br>
                                     <button type="button" class="btn btn-primary"> About</button>
                                 </div>
-                            </div>
+                            </div>--> 
+                          
                             <div class="col-md-2 single-member col-sm-4">
                                 <div class="person-detail">
                                     <div class="arrow-top"></div>
@@ -1250,13 +1262,16 @@
                                                 <p>Mon To Sat | </p>
                                             </div>
                                         </div>
-                                        <div class="col-md-4 col-sm-6">
+                                        <!--
+                                         <div class="col-md-4 col-sm-6">
                                             <div class="section-doctor Pediatrician-doctor">
                                                 <p class="doctors-name">Dr Shakti Pad Das</p>
                                                 <p class="doctors-degree">MD (Paed)</p>
                                                 <p>Mon To Sat | </p>
                                             </div>
                                         </div>
+                                         --> 
+                                       
                                         <div class="col-md-4 col-sm-6">
                                             <div class="section-doctor Pediatrician-doctor">
                                                 <p class="doctors-name">Dr Md. Khalid</p>
@@ -1307,13 +1322,16 @@
                                                 <p>Mon To Sat | </p>
                                             </div>
                                         </div>
-                                        <div class="col-md-4 col-sm-6">
+                                        <!-- 
+                                                                                <div class="col-md-4 col-sm-6">
                                             <div class="section-doctor Pediatrician-doctor">
                                                 <p class="doctors-name">Dr Jainendra Kumar</p>
                                                 <p class="doctors-degree">MS, MRCS, MCH</p>
                                                 <p>Mon To Sat | </p>
                                             </div>
                                         </div>
+                                        -->
+
                                     </div>
                                 </div>
                             </div>
@@ -1342,13 +1360,16 @@
                                             <p>Mon To Sat | </p>
                                         </div>
                                     </div>
-                                    <div class="col-md-4 col-sm-6">
+                                    <!--
+                                     <div class="col-md-4 col-sm-6">
                                         <div class="section-doctor Pediatrician-doctor">
                                             <p class="doctors-name">Dr Shakti Pad Das</p>
                                             <p class="doctors-degree">MD (Paed)</p>
                                             <p>Mon To Sat | </p>
                                         </div>
                                     </div>
+                                     -->
+                                   
                                 </div>
                             </div>
                         </div>
