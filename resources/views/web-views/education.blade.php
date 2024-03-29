@@ -279,7 +279,7 @@
     @include('web-views.menu')
     <!-- end of header area -->
     <!-- Educational Programs -->
-    <section class="about text-center" id="about">
+    <section class="text-center about" id="about">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -291,7 +291,7 @@
                             <p class="p">
                                 <i class="fa fa-external-link"></i> Rani Hospital has been accredited by national borad of
                                 examinations in Medical Sciences for DNB (Pediatrics) course from january 2019 sesion for
-                                02(Post MD) and 02 (Post Diploma) seats.
+                                04(Post MD) and 04 (Post Diploma) seats.
                             </p>
                             <p class="p"><i class="fa fa-external-link"></i> Also been accredited by National Board of
                                 Examinations in Medical Sciences for DNB super speciality course - DrNB (Pediatric surgery)
@@ -326,11 +326,15 @@
                         <p class="p">5. Dr Khalid Md Saifullah MBBS MD MRCP SENIOR CONSULTANT</p>
                         <p class="p">6. Dr Prem Ranjan Kumar MBBS MD (PED) SENIOR CONSULTANT</p>
                         <p class="p">7. Dr. Amardeep Kumar MBBS MD (PED) SENIOR CONSULTANT</p>
-                        <p class="p">8. Dr Shakti Pad Das MBBS MD (PED) JUNIOR CONSULTANT</p>
-                        <p class="p">9. Dr Jai Prakash MBBS MD (PED) JUNIOR CONSULTANT</p>
+                        <!--  <p class="p">8. Dr Shakti Pad Das MBBS MD (PED) JUNIOR CONSULTANT</p>
+                               <p class="p">9. Dr Jai Prakash MBBS MD (PED) JUNIOR CONSULTANT</p>
+                         -->
+                       
+                     
                         <h1><i class="fa fa-external-link"></i> Our Faculties for Pediatric Surgery:</h1>
                         <p class="p">01. Dr Ramanuj Kumar MBBS MS MCh (Ped Surgery)</p>
-                        <p class="p">02. Dr Jainender Kumar MBBS MS MCh (Ped Surgery)</p>
+                        <!--   <p class="p">02. Dr Jainender Kumar MBBS MS MCh (Ped Surgery)</p> -->
+                      
                     </div>
                     <hr class="linecolor">
                 </div>

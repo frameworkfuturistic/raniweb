@@ -279,7 +279,7 @@
     @include('web-views.menu')
     <!-- end of header area -->
     <!-- about section -->
-    <section class="about text-center" id="about">
+    <section class="text-center about" id="about">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
@@ -340,7 +340,7 @@
                         <div class="col-sm-12">
                             <h1>Who we are</h1>
                             <blockquote>
-                                <p class="p">We are in the 18th year of glorious excellence in child care. Our founder
+                                <p class="p">We are in the 20th year of glorious excellence in child care. Our founder
                                     Hon. Dr. Rajesh took courageous decision to start a state of the art facility for
                                     children healthcare in the region. Rani hospital has come a long way in tertiary
                                     child care not only in the state of Jharkhand but in the whole eastern part of the

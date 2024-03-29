@@ -429,9 +429,39 @@
                             </div>
                             <div id="Neonatology" class="tab-pane fade">
                                 <h2><i class="fa fa-spinner"></i> LABORATORY SERVICES</h2>
-                                <div class="col-md-12">
-                                    <img src="img/lab2.webp" alt="" style="width:50%;">
+                                <div class="row" >
+                                    <div class="col-md-6">
+                                        <img src="img/colour_doppler.jpg" alt="" style="width:100%; margin-bottom: 20px;" >
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img src="img/Ct_machine.jpg" alt="" style="width:100%;">
+                                    </div>
                                 </div>
+                                <div class="row" style=" margin-top: 20px;">
+                                    <div class="col-md-6">
+                                        <img src="img/resize_biochemistry_machine 2.jpg" alt="" style="width:100%; margin-bottom: 20px;">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img src="img/resize_blood_culture_sensitivity_machine.jpg" alt="" style="width:100%;">
+                                    </div>
+                                </div>
+                                <div class="row" style=" margin-top: 20px;">
+                                    <div class="col-md-6">
+                                        <img src="img/resize_elysa_procedure.jpg" alt="" style="width:100%; margin-bottom: 20px;">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img src="img/resize_foodallergy_machine.jpg" alt="" style="width:100%;">
+                                    </div>
+                                </div>
+                                <div class="row" style=" margin-top: 20px;">
+                                    <div class="col-md-6">
+                                        <img src="img/resize_immunology_machine 2.jpg" alt="" style="width:100%; margin-bottom: 20px;">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img src="img/resize_urine_analyzer.jpg" alt="" style="width:100%;">
+                                    </div>
+                                </div>
+                                
                                 <br>
                                 <div class="col-md-12">
                                     <blockquote>
@@ -536,6 +566,10 @@
                                 </div>
                                 <div class="col-md-12">
                                     <blockquote>
+                                        <u class="text-danger font-weight-normal bg-danger">
+                                            <h3>Available ->
+                                                24*7 </h3>
+                                        </u>
                                         <p class="p">
                                             The Pharmacy (outsourced) located on the ground floor of the Hospital caters
                                             to
@@ -973,8 +1007,9 @@
                             <!-- PEDIATRIC INTENSIVE CARE -->
                             <div id="PedriaticIntensiveCare" class="tab-pane fade">
                                 <h2><i class="fa fa-spinner"></i> PEDIATRIC INTENSIVE CARE </h2>
-                                 <div class="col-md-12">
-                                    <img src="img/paediatric-intensive-care-unit.png" alt="" style="width:50%;">
+                                <div class="col-md-12">
+                                    <img src="img/paediatric-intensive-care-unit.png" alt=""
+                                        style="width:50%;">
                                 </div>
                                 <blockquote>
 
@@ -1035,8 +1070,9 @@
                             <!-- Pedriatic Surgery -->
                             <div id="PedriaticSurgery" class="tab-pane fade">
                                 <h2><i class="fa fa-spinner"></i> Pedriatic Surgery </h2>
-                                 <div class="col-md-12">
-                                    <img src="img/Best-Pediatric-Surgeons-in-India.jpg" alt="" style="width:50%;">
+                                <div class="col-md-12">
+                                    <img src="img/Best-Pediatric-Surgeons-in-India.jpg" alt=""
+                                        style="width:50%;">
                                 </div>
                                 <blockquote>
                                     <p class="p">
@@ -1099,7 +1135,7 @@
                             <!-- Pediatric Gastroentrology -->
                             <div id="PediatricGastroentrology" class="tab-pane fade">
                                 <h2><i class="fa fa-spinner"></i>PEDIATRIC GASTROENTEROLOGY </h2>
-                                  <div class="col-md-12">
+                                <div class="col-md-12">
                                     <img src="img/pediaGastro.jpg" alt="" style="width:50%;">
                                 </div>
                                 <blockquote>
@@ -1193,7 +1229,7 @@
                             <!-- SPECIALITY CLINIC -->
                             <div id="SpecialityClinic" class="tab-pane fade">
                                 <h2><i class="fa fa-spinner"></i>Speciality Clinic </h2>
-                                  <div class="col-md-12">
+                                <div class="col-md-12">
                                     <img src="img/healthcare2.jpg" alt="" style="width:50%;">
                                 </div>
                                 <blockquote>
