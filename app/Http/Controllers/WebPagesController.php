@@ -49,7 +49,7 @@ class WebPagesController extends Controller
     /**
      * | Schedule Page
      */
-    public function Schedule()
+    public function schedule()
     {
         return view('web-views/schedule');
     }
