@@ -46,6 +46,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="js/modernizr.js"></script>
     <style>
+    
+ 
         .p {
             font-size: 18px;
             text-align: justify;
@@ -367,7 +369,7 @@
                     <br>
                     <br>
                     <!-- tabs -->
-                    <div class="col-sm-3">
+                    <div class="col-sm-3" id="sticky-sidebar">
                         <!-- left tab -->
                         <ul class="nav nav-pills nav-stacked">
                             <li class="active"><a data-toggle="tab" href="#Paediatrics" aria-expanded="true"
@@ -397,7 +399,7 @@
                     </div>
                     <!-- left tab -->
                     <!-- right content -->
-                    <div class="col-sm-9">
+                    <div class="col-sm-9" id="content">
                         <div class="tab-content">
                             <div id="Paediatrics" class="tab-pane fade active in">
                                 <h2><i class="fa fa-spinner"></i> AMBULANCE SERVICES</h2>
@@ -430,36 +432,68 @@
                             <div id="Neonatology" class="tab-pane fade">
                                 <h2><i class="fa fa-spinner"></i> LABORATORY SERVICES</h2>
                                 <div class="row" >
-                                    <div class="col-md-6">
-                                        <img src="img/colour_doppler.jpg" alt="" style="width:100%; margin-bottom: 20px;" >
+                                    <div class="col-md-4">
+                                        <img src="img/resize_PT_machine.jpg" alt="" style="width:100%; margin-bottom: 20px;" >
                                     </div>
-                                    <div class="col-md-6">
-                                        <img src="img/Ct_machine.jpg" alt="" style="width:100%;">
+                                    <div class="col-md-4">
+                                        <img src="img/resize_CBNAT_ PCR.jpg" alt="" style="width:100%;">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="img/resize_eeg_machine.jpg" alt="" style="width:100%;">
                                     </div>
                                 </div>
                                 <div class="row" style=" margin-top: 20px;">
-                                    <div class="col-md-6">
+                                    <div class="col-md-4">
                                         <img src="img/resize_biochemistry_machine 2.jpg" alt="" style="width:100%; margin-bottom: 20px;">
                                     </div>
-                                    <div class="col-md-6">
+                                    <div class="col-md-4">
                                         <img src="img/resize_blood_culture_sensitivity_machine.jpg" alt="" style="width:100%;">
                                     </div>
+                                    <div class="col-md-4">
+                                        <img src="img/resize_blood_gas_machine.jpg" alt="" style="width:100%;">
+                                    </div>
                                 </div>
                                 <div class="row" style=" margin-top: 20px;">
-                                    <div class="col-md-6">
+                                    <div class="col-md-4">
                                         <img src="img/resize_elysa_procedure.jpg" alt="" style="width:100%; margin-bottom: 20px;">
                                     </div>
-                                    <div class="col-md-6">
+                                    <div class="col-md-4">
                                         <img src="img/resize_foodallergy_machine.jpg" alt="" style="width:100%;">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="img/resize_mini_vidas_machine.jpg" alt="" style="width:100%;">
                                     </div>
                                 </div>
                                 <div class="row" style=" margin-top: 20px;">
-                                    <div class="col-md-6">
+                                    <div class="col-md-4">
                                         <img src="img/resize_immunology_machine 2.jpg" alt="" style="width:100%; margin-bottom: 20px;">
                                     </div>
-                                    <div class="col-md-6">
+                                    <div class="col-md-4">
                                         <img src="img/resize_urine_analyzer.jpg" alt="" style="width:100%;">
                                     </div>
+                                    <div class="col-md-4">
+                                        <img src="img/resize_semi_biochemistry_machine.jpg" alt="" style="width:100%;">
+                                    </div>
+                                </div>
+                                <div class="row" style=" margin-top: 20px;">
+                                    <div class="col-md-4">
+                                        <img src="img/resize_microscope.jpg" alt="" style="width:100%; margin-bottom: 20px;">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="img/resize_HPLC_MACHINE.jpg" alt="" style="width:100%;">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="img/resize_blood_bank.jpg" alt="" style="width:100%;">
+                                    </div>
+                                </div>
+                                <div class="row" style=" margin-top: 20px;">
+                                    <div class="col-md-4">
+                                        <img src="img/resize_CBC_machine.jpg" alt="" style="width:100%; margin-bottom: 20px;">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="img/resize_PT_APTT MACHINE.jpg" alt="" style="width:100%;">
+                                    </div>
+                                     
                                 </div>
                                 
                                 <br>
@@ -468,41 +502,40 @@
                                         <h3> <i></i> QUICK REPORT: </h3>
 
                                         <p class = "p">
-                                            <i class="fa fa-external-link"></i>1. CBC 30 MIN
+                                            <i class="fa fa-external-link"></i> Cbc 30 Min
                                             <br>
-                                            <i class="fa fa-external-link"></i>2. VBG 15 MIN
+                                            <i class="fa fa-external-link"></i> Vbg 15 Min
                                             <br>
-                                            <i class="fa fa-external-link"></i>3. CRP, LFT, KFT 1 HOUR
+                                            <i class="fa fa-external-link"></i> Crp, Lft, Kft 1 Hour
                                              
                                             <br>
-                                            <i class="fa fa-external-link"></i>4. BLOOD CULTURE 48 HOURS
-                                            UNIQUE FEATURES:
+                                            <i class="fa fa-external-link"></i> Blood Culture 48 Hours
+                                            Unique Features:
                                             <br>
-                                            • SENSITIVITY PATTERN FOR MULTI DRUG RESISTANT ORGANISM
+                                            • Sensitivity Pattern For Multi Drug Resistant Organism
                                             <br>
-                                            <i class="fa fa-external-link"></i>5. FUNGAL CULTURE: UNIQUE FEATURE WITH
-                                            SENSITIVITY PATTERN
+                                            <i class="fa fa-external-link"></i> Fungal Culture: Unique Feature With
+                                            Sensitivity pattern
                                             <br>
-                                            <i class="fa fa-external-link"></i>6. CBNAAT – TAT 1.5 HOURS
+                                            <i class="fa fa-external-link"></i> Cbnatt – Tat 1.5 hours
                                             <br>
-                                            (UNIQUE SENSITIVITY OF RIFAMPICIN INH BOTH)
-                                            <i class="fa fa-external-link"></i>7.BONE MARROW – ASPIRATION BIOPSY
+                                            (Unique Sensitivity of Rifampicin Inh Both)
+                                            <i class="fa fa-external-link"></i>Bone Marrow – Aspiration Biopsy
                                             <br>
-                                            <i class="fa fa-external-link"></i>8. SPECIAL TEST
-                                            (A) DENGUE IgM(ELISA)
-                                            (B)SCRUB TYPHUS ELISA
+                                            <i class="fa fa-external-link"></i> Special Test
+                                            (A) Dengue IgM(ELISA)
+                                            (B)Scrub Typhus Elisa
 
                                             <br>
-                                            <i class="fa fa-external-link"></i> 9. TTG ANTIGLIADIN ANTIBODY
+                                            <i class="fa fa-external-link"></i>  Ttg Antigliadin AntiBody
                                             <br>
-                                            <i class="fa fa-external-link"></i> 10. HBSAg/HCV/HIV
+                                            <i class="fa fa-external-link"></i>  HbsAg/HCV/HIV
                                             <br>
-                                            <i class="fa fa-external-link"></i> 11. Ig PROFILE IgG/IgM/IgA/IgE
+                                            <i class="fa fa-external-link"></i>  Ig PROFILE IgG/IgM/IgA/IgE
                                             <br>
-                                            <i class="fa fa-external-link"></i> 12. ALLERGY PANEL TEST
+                                            <i class="fa fa-external-link"></i>  Allergy panel Test
                                             <br>
-                                            <i class="fa fa-external-link"></i> 13. PCR – CSF/RESPIRATORY ASPIRATE
-                                            PANEL
+                                            <i class="fa fa-external-link"></i>  Pcr – Csf/Respiratory Aspirate Panel
                                             <br>
 
                                         </p>
@@ -531,6 +564,15 @@
                             </div>
                             <div id="allergy" class="tab-pane fade">
                                 <h2><i class="fa fa-spinner"></i> RADIOLOGY</h2>
+                                 <div class="row" >
+                                    <div class="col-md-6">
+                                        <img src="img/colour_doppler.jpg" alt="" style="width:100%; margin-bottom: 20px;" >
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img src="img/Ct_machine.jpg" alt="" style="width:100%;">
+                                    </div>
+                                   
+                                </div>
                                 <div class="col-md-6">
                                     <blockquote>
                                         <p class="p">

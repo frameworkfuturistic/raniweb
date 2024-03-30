@@ -46,4 +46,11 @@ class WebPagesController extends Controller
     {
         return view('web-views/education');
     }
+    /**
+     * | Schedule Page
+     */
+    public function Schedule()
+    {
+        return view('web-views/schedule');
+    }
 }
