@@ -285,7 +285,7 @@
     <section class="text-center about" id="about">
         <div class="container">
             <div class="row">
-                <div class="col-md-12  ">
+                <div class="col-md-12 ">
                     <!-- DNB -->
                     <!--   <h1  >OPD Schedule</h2> -->
 
@@ -318,16 +318,15 @@
                                                             <td>Mon,Tues, Wed, Thurs,Fri,Sat</td>
                                                         </strong>
                                                     </tr>
-                                                    <tr>
-                                                        <strong>
-                                                            <td><b>Dr. Prem Ranjan</b></td>
-                                                            <td>MBBS, MD(Paed), DM(Neonat)</td>
-                                                            <td>10:00 am to 04: pm
-                                                            </td>
-                                                            <td>Mon,Tues, Wed, Thurs,Fri,Sat,Sun</td>
 
-                                                        </strong>
+                                                    <tr>
+                                                        <td><b> Dr. Khalid M. Saiffulah </b> </td>
+                                                        <td>MBBS, MD(Paed), MRCP</td>
+                                                        <td>11:00 am to 01:00 pm</td>
+                                                        <td>Mon,Tues, Wed, Thurs,Fri,Sat</td>
+
                                                     </tr>
+
                                                     <tr>
                                                         <td><b> Dr. Vinod Kumar </b> </td>
                                                         <td>MBBS, DCH, Fellow(Neonat)</td>
@@ -352,7 +351,7 @@
 
 
                     </div>
-                    <div class="col-md-12  ">
+                    <div class="col-md-12 ">
                         <h2> General Pediatrics</h2>
                         <div class="content">
                             <div class="panel panel-success">
@@ -392,12 +391,18 @@
                                                         </strong>
                                                     </tr>
                                                     <tr>
-                                                        <td><b> Dr. Khalid M. Saiffulah </b> </td>
-                                                        <td>MBBS, MD(Paed), MRCP</td>
-                                                        <td>11:00 am to 01:00 pm</td>
-                                                        <td>Mon,Tues, Wed, Thurs,Fri,Sat</td>
+                                                        <strong>
+                                                            <td><b>Dr. Prem Ranjan</b></td>
+                                                            <td>MBBS, MD(Paed) </td>
+                                                            <td>10:00 am to 04: pm
+                                                            </td>
+                                                            <td>Mon,Tues, Wed, Thurs,Fri,Sat,Sun</td>
 
+                                                        </strong>
                                                     </tr>
+                                                    <!--
+                                                     -->
+
                                                     <tr>
                                                         <td><b> Dr. Amardeep Kumar </b> </td>
                                                         <td>MBBS, MD(Paed)</td>
@@ -415,7 +420,8 @@
                                                     <tr>
                                                         <td><b> Emergency Doctor </b> </td>
 
-                                                        <td>24 Hours</td>
+                                                        <td></td>
+                                                        <td> 24 Hours  </td>
                                                         <td>Mon,Tues, Wed, Thurs,Fri,Sat,Sun</td>
 
                                                     </tr>
@@ -436,7 +442,7 @@
 
 
                     </div>
-                     <div class="col-md-12  ">
+                    <div class="col-md-12 ">
                         <h2> Pediatric Surgery </h2>
                         <div class="content">
                             <div class="panel panel-success">
@@ -474,7 +480,7 @@
 
                                                         </strong>
                                                     </tr>
-                                                   
+
 
 
 
@@ -492,7 +498,7 @@
 
 
                     </div>
-                     <div class="col-md-12  ">
+                    <div class="col-md-12 ">
                         <h2> Paediatric Gastroenterolgy </h2>
                         <div class="content">
                             <div class="panel panel-success">
@@ -520,8 +526,8 @@
                                                             <td>Mon,Tues, Wed, Thurs,Fri,Sat</td>
                                                         </strong>
                                                     </tr>
-                                                
-                                                   
+
+
 
 
 
@@ -539,7 +545,7 @@
 
 
                     </div>
-                     <div class="col-md-12  ">
+                    <div class="col-md-12 ">
                         <h2> Pediatric Neurology </h2>
                         <div class="content">
                             <div class="panel panel-success">
@@ -567,8 +573,8 @@
                                                             <td>Mon,Tues, Wed, Thurs,Fri,Sat</td>
                                                         </strong>
                                                     </tr>
-                                                
-                                                   
+
+
 
 
 
@@ -586,7 +592,7 @@
 
 
                     </div>
-                     <div class="col-md-12  ">
+                    <div class="col-md-12 ">
                         <h2>Pediatric Cardiology </h2>
                         <div class="content">
                             <div class="panel panel-success">
@@ -614,8 +620,8 @@
                                                             <td>(Monthly Visit)</td>
                                                         </strong>
                                                     </tr>
-                                                
-                                                   
+
+
 
 
 
@@ -633,7 +639,7 @@
 
 
                     </div>
-                     <div class="col-md-12  ">
+                    <div class="col-md-12 ">
                         <h2>Pediatric Nephrology </h2>
                         <div class="content">
                             <div class="panel panel-success">
@@ -655,14 +661,14 @@
                                                         <strong>
                                                             <td><b>Dr. Rajeev Sinha</b></td>
                                                             <td>MBBS, MD</td>
-                                                            <td>09:00 am to 03:00 pm 
+                                                            <td>09:00 am to 03:00 pm
                                                             </td>
 
                                                             <td>(Monthly Visit)</td>
                                                         </strong>
                                                     </tr>
-                                                
-                                                   
+
+
 
 
 
@@ -680,7 +686,7 @@
 
 
                     </div>
-                     <div class="col-md-12  ">
+                    <div class="col-md-12 ">
                         <h2>Pediatric Development </h2>
                         <div class="content">
                             <div class="panel panel-success">
@@ -702,14 +708,14 @@
                                                         <strong>
                                                             <td><b>Dr. Shyamal Kumar Das</b></td>
                                                             <td>MBBS, MD(Paed)</td>
-                                                            <td>10:00 am to 04:00 pm 
+                                                            <td>10:00 am to 04:00 pm
                                                             </td>
 
                                                             <td>(Monthly Visit)</td>
                                                         </strong>
                                                     </tr>
-                                                
-                                                   
+
+
 
 
 
@@ -727,7 +733,7 @@
 
 
                     </div>
-                     <div class="col-md-12  ">
+                    <div class="col-md-12 ">
                         <h2>Pediatric Genetics</h2>
                         <div class="content">
                             <div class="panel panel-success">
@@ -749,14 +755,14 @@
                                                         <strong>
                                                             <td><b>Dr. Bhavna Agrwal</b></td>
                                                             <td>MBBS, MD</td>
-                                                            <td>11:00 to 03:00 Pm 
+                                                            <td>11:00 to 03:00 Pm
                                                             </td>
 
                                                             <td>(Monthly Visit)</td>
                                                         </strong>
                                                     </tr>
-                                                
-                                                   
+
+
 
 
 
