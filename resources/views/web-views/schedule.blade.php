@@ -318,7 +318,7 @@
                                                             <td>Mon,Tues, Wed, Thurs,Fri,Sat</td>
                                                         </strong>
                                                     </tr>
-
+<!-- -->
                                                     <tr>
                                                         <td><b> Dr. Khalid M. Saiffulah </b> </td>
                                                         <td>MBBS, MD(Paed), MRCP</td>
@@ -383,7 +383,7 @@
                                                         <strong>
                                                             <td><b>Dr. Sailesh Chandra</b></td>
                                                             <td>MBBS, MD(Paed)</td>
-                                                            <td>110:00 am to 02:00 pm (Rani Children Hospiltal) and
+                                                            <td>11:00 am to 02:00 pm (Rani Children Hospiltal) and
                                                                 06:00 pm to 07:00 pm
                                                             </td>
                                                             <td>Mon,Tues, Wed, Thurs,Fri,Sat,Sun</td>

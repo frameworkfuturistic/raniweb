@@ -954,11 +954,14 @@
                                     <img class="img-responsive" src="doctors/drshailesh.jpg" alt="member-5">
                                 </div>
                             </div>
+                          
+                                
                             <div class="col-md-2 single-member col-sm-4">
                                 <div class="person">
                                     <img class="img-responsive" src="doctors/drkhalid.jpg" alt="member-5">
                                 </div>
-                                <div class="person-detail">
+                            
+                                 <div class="person-detail">
                                     <div class="arrow-bottom"></div>
                                     <h4>Dr. Khalid M Saifullah</h4>
                                     <p><strong>MD(Paed), MRCP(Paed), MSc(Neonat) </strong></p>
@@ -966,6 +969,9 @@
                                     <button type="button" class="btn btn-primary"> About</button>
                                     </p>
                                 </div>
+                                
+                      
+                               
                             </div>
                             <div class="col-md-2 single-member col-sm-4">
                                 <div class="person-detail">
@@ -984,18 +990,7 @@
                         </div>
                         <div class="item">
                             <!-- item2 -->
-                            <div class="col-md-2 single-member col-sm-4">
-                                <div class="person">
-                                    <img class="img-responsive" src="doctors/amardeep.jpg" alt="member-1">
-                                </div>
-                                <div class="person-detail">
-                                    <div class="arrow-bottom"></div>
-                                    <h4>Dr. Amardeep Kumar</h4>
-                                    <p><strong>MBBS, MD(Paed)</strong></p>
-                                    <p>Senior Consultant Paediatrics/Neonatology</p> <br>
-                                    <button type="button" class="btn btn-primary"> About</button>
-                                </div>
-                            </div>
+                           
                             <!-- 
                             <div class="col-md-2 single-member col-sm-4">
                              
@@ -1016,7 +1011,7 @@
                                
                             </div>
                             --> 
-                            
+                            <!-- 
                              <div class="col-md-2 single-member col-sm-4">
                                 <div class="person-detail">
                                     <div class="arrow-top"></div>
@@ -1029,6 +1024,8 @@
                                     <img class="img-responsive" src="doctors/mdkhalid.jpg" alt="member-5">
                                 </div>
                             </div>
+                            --> 
+                            
                             <!--  
                             <div class="col-md-2 single-member col-sm-4">
                                 <div class="person">
@@ -1074,6 +1071,21 @@
                                     <img class="img-responsive" src="doctors/ramanuj.jpg" alt="member-5">
                                 </div>
                             </div>
+                             <div class="col-md-2 single-member col-sm-4">
+                              <div class="person">
+                                    <img class="img-responsive" src="doctors/tarun.jpg" alt="member-5">
+                                    <!-- <img class="img-responsive" src="img/member2.jpg" alt="member-2"> -->
+                                </div>
+                                <div class="person-detail">
+                                    <div class="arrow-top"></div>
+                                    <h4>Dr. Tarun Adukia</h4>
+                                    <p><strong>MBBS, MS, MCH(Neurosurgery)</strong></p>
+                                    <p>Consultant Neuroscience</p> <br>
+                                    <button type="button" class="btn btn-primary"> About</button>
+                                </div>
+
+                               
+                            </div>
                             <!-- item2 -->
                         </div>
                         <!-- item3 -->
@@ -1093,20 +1105,7 @@
                                 </div>
                             </div>--> 
                           
-                            <div class="col-md-2 single-member col-sm-4">
-                                <div class="person-detail">
-                                    <div class="arrow-top"></div>
-                                    <h4>Dr. Tarun Adukia</h4>
-                                    <p><strong>MBBS, MS, MCH(Neurosurgery)</strong></p>
-                                    <p>Consultant Neuroscience</p> <br>
-                                    <button type="button" class="btn btn-primary"> About</button>
-                                </div>
-
-                                <div class="person">
-                                    <img class="img-responsive" src="doctors/tarun.jpg" alt="member-5">
-                                    <!-- <img class="img-responsive" src="img/member2.jpg" alt="member-2"> -->
-                                </div>
-                            </div>
+                           
                         </div>
                         <!-- item3 -->
                         <!-- item3 -->
@@ -1147,13 +1146,7 @@
                                                     <p>Mon To Sat | </p>
                                                 </div>
                                             </div>
-                                            <div class="col-md-4 col-sm-6">
-                                                <div class="section-doctor Pediatrician-doctor">
-                                                    <p class="doctors-name">Dr Khaild Md Saifullah </p>
-                                                    <p class="doctors-degree">MD (Paed), MRCP</p>
-                                                    <p>Mon To Sat | </p>
-                                                </div>
-                                            </div>
+                                            
                                             <div class="col-md-4 col-sm-6">
                                                 <div class="section-doctor Pediatrician-doctor">
                                                     <p class="doctors-name"> Dr Vinod Kumar</p>
@@ -1162,13 +1155,7 @@
                                                     <p>Mon To Sat | </p>
                                                 </div>
                                             </div>
-                                            <div class="col-md-4 col-sm-6">
-                                                <div class="section-doctor Pediatrician-doctor">
-                                                    <p class="doctors-name">Dr Vikas Anand</p>
-                                                    <p class="doctors-degree">MD (Paed), Fellow (Neonat)</p>
-                                                    <p>Mon To Sat | </p>
-                                                </div>
-                                            </div>
+                                         
                                             <div class="col-md-4 col-sm-6">
                                                 <div class="section-doctor Pediatrician-doctor">
                                                     <p class="doctors-name">Dr. RAJESH KUMAR </p>
