@@ -391,8 +391,8 @@
                             </li>
                             <li><a data-toggle="tab" href="#PedriaticSurgery">Pedriatic Surgery</a></li>
                             <li><a data-toggle="tab" href="#PediatricGastroentrology">Pediatric Gastroentrology</a>
-                            <li><a data-toggle="tab" href="#SuperspecialityDepartment">Super Speciality Department</a>
-                            <li><a data-toggle="tab" href="#SpecialityClinic">Speciality Clinic</a>
+                            <li><a data-toggle="tab" href="#PaediatricNeurology">Paediatric Neurology</a>
+                            <li><a data-toggle="tab" href="#PediatricCardiology"> Pediatric Cardiology</a>
                             </li>
 
                         </ul>
@@ -1112,7 +1112,7 @@
                             <div id="PedriaticSurgery" class="tab-pane fade">
                                 <h2><i class="fa fa-spinner"></i> Pedriatic Surgery </h2>
                                 <div class="col-md-12">
-                                    <img src="img/Best-Pediatric-Surgeons-in-India.jpg" alt=""
+                                    <img src="img/pediatricsurgery.jpg" alt=""
                                         style="width:50%;">
                                 </div>
                                 <blockquote>
@@ -1224,10 +1224,10 @@
 
                             </div>
                             <!-- SUPERSPECIALITY DEPARTMENT -->
-                            <div id="SuperspecialityDepartment" class="tab-pane fade">
-                                <h2><i class="fa fa-spinner"></i>Super Speciality Department </h2>
+                            <div id="PaediatricNeurology" class="tab-pane fade">
+                                <h2><i class="fa fa-spinner"></i>Paediatric Neurology </h2>
                                 <div class="col-md-12">
-                                    <img src="img/superspeciality.jpeg" alt="" style="width:50%;">
+                                    <img src="img/pediatriNeurology.jpg" alt="" style="width:50%;">
                                 </div>
                                 <blockquote>
                                     <p class="p">
@@ -1244,6 +1244,15 @@
 
                                     </p>
                                 </blockquote>
+                              
+
+                            </div>
+                            <div id="PediatricCardiology" class="tab-pane fade">
+                                <h2><i class="fa fa-spinner"></i>Pediatric Cardiology</h2>
+                                <div class="col-md-12">
+                                    <img src="img/superspeciality.jpeg" alt="" style="width:50%;">
+                                </div>
+                               
                                 <blockquote>
 
                                     <p class="p ">

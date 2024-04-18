@@ -1090,8 +1090,10 @@
                         </div>
                         <!-- item3 -->
                         <!-- item3 -->
-                        <div class="item">
-                        <!--   <div class="col-md-2 single-member col-sm-4">
+                      
+                        <!-- 
+                          <div class="item">
+                          <div class="col-md-2 single-member col-sm-4">
                                 <div class="person">
                                     <img class="img-responsive" src="doctors/jainendra.jpg" alt="member-1">
                                 </div>
@@ -1103,10 +1105,12 @@
                                     <p>Paediatric Surgeon</p> <br><br>
                                     <button type="button" class="btn btn-primary"> About</button>
                                 </div>
-                            </div>--> 
+                            </div>
+                              </div>
+                            --> 
                           
                            
-                        </div>
+                      
                         <!-- item3 -->
                         <!-- item3 -->
                     </div>
@@ -1149,7 +1153,7 @@
                                             
                                             <div class="col-md-4 col-sm-6">
                                                 <div class="section-doctor Pediatrician-doctor">
-                                                    <p class="doctors-name"> Dr Vinod Kumar</p>
+                                                    <p class="doctors-name"> Dr Vinod Kumar (Sr. Consultant )</p>
                                                     <p class="doctors-degree">MBBS, DCH, Fellow (Neonat)</p>
                                                     <p>Sr. Consultant Neonatology/Paediatrics</p>
                                                     <p>Mon To Sat | </p>
@@ -1158,22 +1162,36 @@
                                          
                                             <div class="col-md-4 col-sm-6">
                                                 <div class="section-doctor Pediatrician-doctor">
-                                                    <p class="doctors-name">Dr. RAJESH KUMAR </p>
+                                                    <p class="doctors-name"> Dr. Khalid M Saifullah (Sr. Consultant ) </p>
+                                                    <p class="doctors-degree">MBBS, MD (Paed), MRCP</p>
+                                                    <p>Mon To Sat | </p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 col-sm-6">
+                                                <div class="section-doctor Pediatrician-doctor">
+                                                    <p class="doctors-name">Dr. ANKIT KUMAR (Consultant) </p>
                                                     <p class="doctors-degree">MD,DM ( NEONATALOGY )</p>
                                                     <p>Mon To Sat | </p>
                                                 </div>
                                             </div>
                                             <div class="col-md-4 col-sm-6">
                                                 <div class="section-doctor Pediatrician-doctor">
-                                                    <p class="doctors-name">Dr. ANKIT KUMAR  </p>
+                                                    <p class="doctors-name">Dr. SHRIYA AKANKSHA (Consultant) </p>
                                                     <p class="doctors-degree">MD,DM ( NEONATALOGY )</p>
                                                     <p>Mon To Sat | </p>
                                                 </div>
                                             </div>
                                             <div class="col-md-4 col-sm-6">
                                                 <div class="section-doctor Pediatrician-doctor">
-                                                    <p class="doctors-name">Dr. SHRIYA AKANKSHA </p>
-                                                    <p class="doctors-degree">MD,DM ( NEONATALOGY )</p>
+                                                    <p class="doctors-name">Dr. Garima Dipti (Consultant) </p>
+                                                    <p class="doctors-degree">MBBS, MD (Paed), Fellowship (Neonat)</p>
+                                                    <p>Mon To Sat | </p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 col-sm-6">
+                                                <div class="section-doctor Pediatrician-doctor">
+                                                    <p class="doctors-name">Dr. Ankit Ranjan (Consultant) </p>
+                                                    <p class="doctors-degree">MBBS, MD (Paed), DM(Neonat)</p>
                                                     <p>Mon To Sat | </p>
                                                 </div>
                                             </div>
@@ -1287,6 +1305,20 @@
                                                 <p>Mon To Sat | </p>
                                             </div>
                                         </div>
+                                        <div class="col-md-4 col-sm-6">
+                                            <div class="section-doctor Pediatrician-doctor">
+                                                <p class="doctors-name">Dr. Asif Iqubal (Sr. Resident)</p>
+                                                <p class="doctors-degree">MBBS, MD (Paed)</p>
+                                                <p>Mon To Sat | </p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-sm-6">
+                                            <div class="section-doctor Pediatrician-doctor">
+                                                <p class="doctors-name">Dr. Ananta Jayasawal (Consultant)</p>
+                                                <p class="doctors-degree">MBBS, MD (Paed)</p>
+                                                <p>Mon To Sat | </p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -1347,6 +1379,20 @@
                                             <p>Mon To Sat | </p>
                                         </div>
                                     </div>
+                                    <div class="col-md-4 col-sm-6">
+                                        <div class="section-doctor Pediatrician-doctor">
+                                            <p class="doctors-name">Dr. Vishwanath Brahmachari (Consultant)</p>
+                                            <p class="doctors-degree">MBBS, MD, DNB (Paed)</p>
+                                            <p>Mon To Sat | </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6">
+                                        <div class="section-doctor Pediatrician-doctor">
+                                            <p class="doctors-name">Dr. Zeeshan Ahmed (Consultant)</p>
+                                            <p class="doctors-degree">MBBS, MD, DNB (Paed), PDDC </p>
+                                            <p>Mon To Sat | </p>
+                                        </div>
+                                    </div>
                                     <!--
                                      <div class="col-md-4 col-sm-6">
                                         <div class="section-doctor Pediatrician-doctor">
@@ -1372,8 +1418,8 @@
                                 <div class="panel-body">
                                     <div class="col-md-4 col-sm-6">
                                         <div class="section-doctor Pediatrician-doctor">
-                                            <p class="doctors-name">Dr Rajiv Sinha / Dr Rana Saha</p>
-                                            <p class="doctors-degree">Visiting</p>
+                                            <p class="doctors-name">Dr Rajiv Sinha (Sr. Consultant ) </p>
+                                            <p class="doctors-degree">MBBS, MD(Paed), DM(Nephro)</p>
                                             <p>Mon To Sat | </p>
                                         </div>
                                     </div>
@@ -1392,8 +1438,22 @@
                                 <div class="panel-body">
                                     <div class="col-md-4 col-sm-6">
                                         <div class="section-doctor Pediatrician-doctor">
-                                            <p class="doctors-name">Dr Tarun Adukia</p>
-                                            <p class="doctors-degree">MS, MCH (Neurosurgery)</p>
+                                            <p class="doctors-name">Dr. Tarun Kumar Adukia (Sr. Consultant )</p>
+                                            <p class="doctors-degree">MBBS, MS, MCH (Neurosurgery)</p>
+                                            <p>Mon To Sat | </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6">
+                                        <div class="section-doctor Pediatrician-doctor">
+                                            <p class="doctors-name">Dr. Abhishek Kumar Dubey (Sr. Consultant )</p>
+                                            <p class="doctors-degree">MBBS, MD (Paed), DM (Neuro)</p>
+                                            <p>Mon To Sat | </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6">
+                                        <div class="section-doctor Pediatrician-doctor">
+                                            <p class="doctors-name">Dr. Shyamal Kumar Das (Sr. Consultant )</p>
+                                            <p class="doctors-degree">MBBS, Md (Paed)</p>
                                             <p>Mon To Sat | </p>
                                         </div>
                                     </div>
@@ -1414,6 +1474,15 @@
                                         <div class="section-doctor Pediatrician-doctor">
                                             <p class="doctors-name">Dr JN Jha</p>
                                             <p class="doctors-degree">MD</p>
+                                            <p>Mon To Sat | </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel-body">
+                                    <div class="col-md-4 col-sm-6">
+                                        <div class="section-doctor Pediatrician-doctor">
+                                            <p class="doctors-name">Dr. Neeta Singhal (Anesthetist)</p>
+                                            <p class="doctors-degree">MBBS, MD(Anaesthesia)</p>
                                             <p>Mon To Sat | </p>
                                         </div>
                                     </div>
@@ -1480,6 +1549,24 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="panel panel-default" data-toggle="collapse" href="#genetics">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">
+                                    <a> Genetics</a>
+                                </h3>
+                            </div>
+                            <div id="genetics" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <div class="col-md-4 col-sm-6">
+                                        <div class="section-doctor Pediatrician-doctor">
+                                            <p class="doctors-name">Dr. Bhavna Agrwal (Sr. Consultant ) </p>
+                                            <p class="doctors-degree">MBBS, MD(Paed)</p>
+                                            <p>Mon-Sat </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <!-- / PEDIATRIC GASTROENTEROLOGY -->
                          <!-- PEDIATRIC SURGERY -->
                             <div class="panel panel-default" data-toggle="collapse" href="#PediatricSurgery">
@@ -1493,14 +1580,14 @@
                                     <div class="col-md-4 col-sm-6">
                                         <div class="section-doctor Pediatrician-doctor">
                                             <p class="doctors-name">Dr. RAMANUJ KUMAR  </p>
-                                            <p class="doctors-degree">(MS,MCH)</p>
+                                            <p class="doctors-degree">MBBS, MS (Paed Surgery), MCH, JCMR</p>
                                             <p>Full Time Consultant </p>
                                         </div>
                                     </div>
                                     <div class="col-md-4 col-sm-6">
                                         <div class="section-doctor Pediatrician-doctor">
                                             <p class="doctors-name">Dr. MD. IMRAN   </p>
-                                            <p class="doctors-degree">(MCH)</p>
+                                            <p class="doctors-degree">MBBS, MCH (Paed Surgery)</p>
                                             <p>Full Time Consultant </p>
                                         </div>
                                     </div>
