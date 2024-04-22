@@ -43,6 +43,14 @@ Route::middleware([
     'verified',
 ])->group(function () {
     Route::get('/dashboard', function () {
-        return Inertia::render('Dashboard');
+        return view('dashboard');
     })->name('dashboard');
+
+    Route::get('user/profile', function () {
+        return view('profile.show');
+    })->name('profile.show');
+
+    Route::get('crud/doctors', function () {
+        return view('pages.doctors');
+    });
 });
