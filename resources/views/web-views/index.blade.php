@@ -12,13 +12,16 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="Keywords" content="Children Hospital, Hospital, Jharkhand, Ranchi, Multispecialty, ICU, Neonatal ICU, 24x7 Critical Care Ambulance Service">
-    <meta name="Description" content="Rani Hospital is the largest Children Hospital in Jharkhand. 250 bedded hospital with modern clinical and surgical facilities for infants and children.">
+    <meta name="Keywords"
+        content="Children Hospital, Hospital, Jharkhand, Ranchi, Multispecialty, ICU, Neonatal ICU, 24x7 Critical Care Ambulance Service">
+    <meta name="Description"
+        content="Rani Hospital is the largest Children Hospital in Jharkhand. 250 bedded hospital with modern clinical and surgical facilities for infants and children.">
     <title>Rani Hospital</title>
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:600italic,400,800,700,300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:600italic,400,800,700,300' rel='stylesheet'
+        type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=BenchNine:300,400,700' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Ibarra+Real+Nova&display=swap" rel="stylesheet">
     <!-- favicon -->
@@ -309,7 +312,7 @@
 <body>
 
     <!-- ====================================================
-	header section -->
+ header section -->
     <!-- <div class="alert header-bg">
      <div class="left-bar">
           
@@ -329,38 +332,39 @@
                         <div class="item active">
                             <img src="img/2.jpg" alt="" class="reso hidden-xl hidden-lg">
                             <div class="slider1 visible-xl visible-lg parallax-window" data-parallax="scroll"></div>
-                            <div class="carousel-caption hidden-xs hidden-sm">
-                                <p class="top">The best way to make children good is to make them happy</p>
-                                <button class="hidden-xs hidden-sm growing" onclick="window.open('{{$appointmentUrl}}','_blank')"><i class="fa fa-user-md"></i> Book Appointment</button>
-                            </div>
+
+
                         </div>
                         <div class="item">
-                            <img src="img/buildingcopy1.png" alt="" class="reso hidden-xl hidden-lg" id="slide2">
+                            <img src="img/buildingcopy1.png" alt="" class="reso hidden-xl hidden-lg"
+                                id="slide2">
                             <div class="slider2 visible-xl visible-lg"></div>
-                            <div class="carousel-caption hidden-xs hidden-sm">
-                                <p>Children make your life important</p>
-                                <button class="hidden-xs hidden-sm growing" onclick="window.open('{{$appointmentUrl}}','_blank')"><i class="fa fa-user-md"></i> Book Appointment</button>
-                            </div>
+
+
                         </div>
                         <div class="item">
-                            <img src="img/slidedoctor.jpg" alt="" class="reso hidden-xl hidden-lg" id="slide3">
+                            <img src="img/slidedoctor.jpg" alt="" class="reso hidden-xl hidden-lg"
+                                id="slide3">
                             <div class="slider3 visible-xl visible-lg"></div>
-                            <div class="carousel-caption hidden-xs hidden-sm">
+                            <!--  <div class="carousel-caption hidden-xs hidden-sm">
                                 <p>Children make your life important</p>
-                                <button class="hidden-xs hidden-sm growing" onclick="window.open('{{$appointmentUrl}}','_blank')"><i class="fa fa-user-md"></i> Book Appointment</button>
-                            </div>
+                                <button class="hidden-xs hidden-sm growing" onclick="window.open('{{ $appointmentUrl }}','_blank')"><i class="fa fa-user-md"></i> Book Appointment</button>
+                            </div> -->
+
                         </div>
                         <div class="item">
                             <img src="img/5.jpg" alt="" class="reso hidden-xl hidden-lg" id="slide4">
                             <div class="slider4 visible-xl visible-lg"></div>
-                            <div class="carousel-caption hidden-xs hidden-sm">
+                            <!-- <div class="carousel-caption hidden-xs hidden-sm">
                                 <p>Children make your life important</p>
-                                <button class="hidden-xs hidden-sm growing" onclick="window.open('{{$appointmentUrl}}','_blank')"><i class="fa fa-user-md"></i> Book Appointment</button>
-                            </div>
+                                <button class="hidden-xs hidden-sm growing" onclick="window.open('{{ $appointmentUrl }}','_blank')"><i class="fa fa-user-md"></i> Book Appointment</button>
+                            </div> -->
+
                         </div>
                         <!-- accrediations -->
                         <div class="item">
-                            <img src="img/accreditations1.jpg" alt="" class="reso hidden-xl hidden-lg" id="slide5">
+                            <img src="img/accreditations1.jpg" alt="" class="reso hidden-xl hidden-lg"
+                                id="slide5">
                             <div class="slider5 visible-xl visible-lg"></div>
                             <!-- <div class="carousel-caption hidden-xs hidden-sm">
                                 <p>Children make your life important</p>
@@ -394,7 +398,8 @@
                 <div style="background-color:#1C6DD0; padding:15px;">
                     <div class="container hidden-xs hidden-sm">
                         <div class="">
-                            <div class="marquee" behavior="alternate" direction="left" onmouseover="this.stop();" onmouseout="this.start();">Emergency No.(24x7) : <i class="fa fa-phone-square"></i>
+                            <div class="marquee" behavior="alternate" direction="left" onmouseover="this.stop();"
+                                onmouseout="this.start();">Emergency No.(24x7) : <i class="fa fa-phone-square"></i>
                                 7677111010, 18002574010</div>
                         </div>
                         <!-- <div class="col-md-3">
@@ -403,7 +408,9 @@
                     </div>
                     <div class="container-fluid visible-xs visible-sm">
                         <div class="col-sm-12">
-                            <button class="btn btn-sm growing" onclick="window.open('{{$appointmentUrl}}','_blank')"><i class="fa fa-user-md"></i> Book Appointment</button>
+                            <button class="btn btn-sm growing"
+                                onclick="window.open('{{ $appointmentUrl }}','_blank')"><i class="fa fa-user-md"></i>
+                                Book Appointment</button>
                         </div>
                         <div class="col-md-12">
                             <div class="marquee"><i class="fa fa-trophy"></i>DNB: 7061159186</div>
@@ -414,7 +421,7 @@
         </div>
     </section><!-- end of slider section -->
     <!-- overview -->
-    <section class="about text-center" id="about">
+    <section class="text-center about" id="about">
         <div class="container">
             <div class="row">
                 <h2>About Rani Hospital</h2>
@@ -447,7 +454,8 @@
                 <!-- sidebar -->
                 <div class="col-sm-4">
                     <div class="list-group">
-                        <a href="#" class="list-group-item p" style="color: blue;"><i class="fa fa-ambulance"></i>
+                        <a href="#" class="list-group-item p" style="color: blue;"><i
+                                class="fa fa-ambulance"></i>
                             <strong>Ambulance Services</strong></a>
                         <a href="tel:+917677111010" class="list-group-item p">7677111010, 0651-2360430/35</a>
                         <a href="#" class="list-group-item p">Centre of excellence in children’s healthcare</a>
@@ -470,7 +478,7 @@
     <!-- overview -->
     <br><br>
     <!-- bullet texts -->
-    <section class="bullet_text text-center">
+    <section class="text-center bullet_text">
         <div class="container">
             <div class="row">
                 <!-- features -->
@@ -483,30 +491,39 @@
                                         Specialities</strong>
                                 </h4>
                                 <ul style="margin-top: -20px;">
-                                    <li><i class="fa fa-external-link"></i> <a class="feature" href="#">Centre of
+                                    <li><i class="fa fa-external-link"></i> <a class="feature" href="#">Centre
+                                            of
                                             excellence in
                                             children’s healthcare</a></li>
-                                    <li><i class="fa fa-external-link"></i> <a class="feature" href="#">225 Bedded Super
+                                    <li><i class="fa fa-external-link"></i> <a class="feature" href="#">225
+                                            Bedded Super
                                             Speciality
                                             Children Hospital.</a></li>
-                                    <li><i class="fa fa-external-link"></i> <a class="feature" href="#">Best in class
+                                    <li><i class="fa fa-external-link"></i> <a class="feature" href="#">Best in
+                                            class
                                             treatment
                                             facility in Eastern India.</a></li>
-                                    <li><i class="fa fa-external-link"></i> <a class="feature" href="#">Inter state
+                                    <li><i class="fa fa-external-link"></i> <a class="feature" href="#">Inter
+                                            state
                                             Ambulance
                                             Services</a></li>
-                                    <li><i class="fa fa-external-link"></i> <a class="feature" href="#">Best Tertiary
+                                    <li><i class="fa fa-external-link"></i> <a class="feature" href="#">Best
+                                            Tertiary
                                             care NICU
                                             facility in the region</a></li>
-                                    <li><i class="fa fa-external-link"></i> <a class="feature" href="#">Mechanical and
+                                    <li><i class="fa fa-external-link"></i> <a class="feature"
+                                            href="#">Mechanical and
                                             Non Invasive
                                             ventilator</a></li>
-                                    <li><i class="fa fa-external-link"></i> <a class="feature" href="#">HHFO, CPAP</a>
+                                    <li><i class="fa fa-external-link"></i> <a class="feature" href="#">HHFO,
+                                            CPAP</a>
                                     </li>
-                                    <li><i class="fa fa-external-link"></i> <a class="feature" href="#">All Neonatal
+                                    <li><i class="fa fa-external-link"></i> <a class="feature" href="#">All
+                                            Neonatal
                                             procedures</a>
                                     </li>
-                                    <li><i class="fa fa-external-link"></i> <a class="feature" href="#">All types of
+                                    <li><i class="fa fa-external-link"></i> <a class="feature" href="#">All
+                                            types of
                                             paediatric
                                             surgery</a></li>
                                 </ul>
@@ -526,31 +543,40 @@
                                         Specialities</strong>
                                 </h4>
                                 <ul style="margin-top: -20px;">
-                                    <li><i class="fa fa-external-link"></i> <a class="feature" href="#">Treatment and
+                                    <li><i class="fa fa-external-link"></i> <a class="feature"
+                                            href="#">Treatment and
                                             Care of ELBW,
                                             VLBW, LBW in NICU</a></li>
-                                    <li><i class="fa fa-external-link"></i> <a class="feature" href="#">Screening Of
+                                    <li><i class="fa fa-external-link"></i> <a class="feature"
+                                            href="#">Screening Of
                                             Newborns</a>
                                     </li>
-                                    <li><i class="fa fa-external-link"></i> <a class="feature" href="#">Special Care &
+                                    <li><i class="fa fa-external-link"></i> <a class="feature" href="#">Special
+                                            Care &
                                             Neonatal
                                             Intensive Care</a></li>
-                                    <li><i class="fa fa-external-link"></i> <a class="feature" href="#">Paediatrics
+                                    <li><i class="fa fa-external-link"></i> <a class="feature"
+                                            href="#">Paediatrics
                                             Emergency
                                             Transport Service</a></li>
-                                    <li><i class="fa fa-external-link"></i> <a class="feature" href="#">Preoperative &
+                                    <li><i class="fa fa-external-link"></i> <a class="feature"
+                                            href="#">Preoperative &
                                             Postoperative
                                             Care</a></li>
-                                    <li><i class="fa fa-external-link"></i> <a class="feature" href="#">Technology &
+                                    <li><i class="fa fa-external-link"></i> <a class="feature"
+                                            href="#">Technology &
                                             Facilities </a>
                                     </li>
-                                    <li><i class="fa fa-external-link"></i> <a class="feature" href="#">A Special
+                                    <li><i class="fa fa-external-link"></i> <a class="feature" href="#">A
+                                            Special
                                             Paediatrics
                                             Intensive Care Unit With Ventilators</a></li>
-                                    <li><i class="fa fa-external-link"></i> <a class="feature" href="#">Preoperative &
+                                    <li><i class="fa fa-external-link"></i> <a class="feature"
+                                            href="#">Preoperative &
                                             Postoperative
                                             Care</a></li>
-                                    <li><i class="fa fa-external-link"></i> <a class="feature" href="#">Neonatal
+                                    <li><i class="fa fa-external-link"></i> <a class="feature"
+                                            href="#">Neonatal
                                             Intensive Care Unit
                                             Along With Neonatal Ventilators</a></li>
                                 </ul>
@@ -565,12 +591,12 @@
     </section>
     <!-- bullet texts -->
     <!-- specialities tabs -->
-    <section class="about text-center">
+    <section class="text-center about">
         <div class="container">
             <div class="row">
                 <!-- specialities tab -->
                 <!-- definitions -->
-                <section class="about text-center" id="about">
+                <section class="text-center about" id="about">
                     <div class="container">
                         <div class="row">
                             <h2>Specialities</h2>
@@ -649,7 +675,8 @@
                                             <img src="img/PICU.png" alt="" style="width:100%;">
                                         </div>
                                         <div class="col-md-6">
-                                            <img src="img/PAEDIATRICS2.jfif" alt="" style="width:100%; height:325px;">
+                                            <img src="img/PAEDIATRICS2.jfif" alt=""
+                                                style="width:100%; height:325px;">
                                         </div>
                                     </div>
                                     <div id="Neonatology" class="tab-pane fade">
@@ -682,7 +709,8 @@
 
                                         </p>
                                         <div class="col-md-12">
-                                            <img src="img/NEONATOLOGY1.jfif" alt="" style="width:100%; height:325px;">
+                                            <img src="img/NEONATOLOGY1.jfif" alt=""
+                                                style="width:100%; height:325px;">
                                         </div>
                                         <!-- <div class="col-md-6">
                                             <img src="img/NEONATOLOGY2.jfif" alt="" style="width:100%; height:325px;">
@@ -715,7 +743,7 @@
     </section>
     <!-- specialities tabs -->
     <!-- service section starts here -->
-    <section class="service text-center" id="service">
+    <section class="text-center service" id="service">
         <div class="container">
             <div class="row">
                 <h2>our Services</h2>
@@ -792,14 +820,15 @@
             </div>
         </div>
     </section><!-- end of service section -->
-    <section class="Department text-center" id="Department">
+    <section class="text-center Department" id="Department">
         <div class="container-fluid">
             <div class="row">
                 <h2>Our Department</h2>
                 <div class="col-md-4 col-sm-6">
-                    <div class="single-about-detail clearfix">
+                    <div class="clearfix single-about-detail">
                         <div class="about-img">
-                            <img class="img-responsive" src="img/PICU.png" alt="" title="Paediatrics Intensive Care">
+                            <img class="img-responsive" src="img/PICU.png" alt=""
+                                title="Paediatrics Intensive Care">
                         </div>
                         <div class="about-details" style="height:220px;">
                             <div class="pentagon-text">
@@ -810,7 +839,8 @@
                                 deals with serious, and critical illness in children which have assumed life threatening
                                 proportions. In no other branch of medicine is prompt rapid care so rewarding as in
                                 Pediatric. We have 25 beded paediatric ICU and 22 beded paediatric HDU. PICU has more
-                                than 10 ventilitors.<a href="" style="color: red; font-size: 14px; margin-left: 190px;"></a></p>
+                                than 10 ventilitors.<a href=""
+                                    style="color: red; font-size: 14px; margin-left: 190px;"></a></p>
                         </div>
                     </div>
                 </div>
@@ -829,7 +859,8 @@
                                 spearheaded the arrival and establishment of advanced Newborn Intensive Care in
                                 Jharkhand and whole of eastern India since 2004.NICU has latest facilities including
                                 >100 NICU beds, >25 ventilitors, 2 HFO ventilitors, nitric oxide system, therapeutic
-                                hypothermia and brain monitoring system(aEEG).<br><a href="" style="color: red; font-size: 14px; margin-left: 280px;"></a></p>
+                                hypothermia and brain monitoring system(aEEG).<br><a href=""
+                                    style="color: red; font-size: 14px; margin-left: 280px;"></a></p>
                         </div>
                     </div>
                 </div>
@@ -857,10 +888,10 @@
     </section>
 
     <!-- team section -->
-    <section class="team text-center" id="team">
+    <section class="text-center team" id="team">
         <div class="container">
             <div class="row">
-                <div class="team-heading text-center">
+                <div class="text-center team-heading">
                     <h2>Our Team of Experts</h2>
                     <h4></h4>
                 </div>
@@ -923,11 +954,14 @@
                                     <img class="img-responsive" src="doctors/drshailesh.jpg" alt="member-5">
                                 </div>
                             </div>
+                          
+                                
                             <div class="col-md-2 single-member col-sm-4">
                                 <div class="person">
                                     <img class="img-responsive" src="doctors/drkhalid.jpg" alt="member-5">
                                 </div>
-                                <div class="person-detail">
+                            
+                                 <div class="person-detail">
                                     <div class="arrow-bottom"></div>
                                     <h4>Dr. Khalid M Saifullah</h4>
                                     <p><strong>MD(Paed), MRCP(Paed), MSc(Neonat) </strong></p>
@@ -935,6 +969,9 @@
                                     <button type="button" class="btn btn-primary"> About</button>
                                     </p>
                                 </div>
+                                
+                      
+                               
                             </div>
                             <div class="col-md-2 single-member col-sm-4">
                                 <div class="person-detail">
@@ -953,19 +990,10 @@
                         </div>
                         <div class="item">
                             <!-- item2 -->
+                           
+                            <!-- 
                             <div class="col-md-2 single-member col-sm-4">
-                                <div class="person">
-                                    <img class="img-responsive" src="doctors/amardeep.jpg" alt="member-1">
-                                </div>
-                                <div class="person-detail">
-                                    <div class="arrow-bottom"></div>
-                                    <h4>Dr. Amardeep Kumar</h4>
-                                    <p><strong>MBBS, MD(Paed)</strong></p>
-                                    <p>Senior Consultant Paediatrics/Neonatology</p> <br>
-                                    <button type="button" class="btn btn-primary"> About</button>
-                                </div>
-                            </div>
-                            <div class="col-md-2 single-member col-sm-4">
+                             
                                 <div class="person-detail">
                                     <div class="arrow-top"></div>
                                     <h4>Dr. Shakti Pad Das</h4>
@@ -973,27 +1001,18 @@
                                     <p>Senior Consultant Paediatrics/Neonatology</p> <br>
                                     <button type="button" class="btn btn-primary"> About</button>
                                 </div>
-
+                                
+ 
                                 <div class="person">
                                     <img class="img-responsive" src="img/drsakti.jpg" alt="member-5">
-                                    <!-- <img class="img-responsive" src="img/member2.jpg" alt="member-2"> -->
-                                </div>
+                                   <img class="img-responsive" src="img/member2.jpg" alt="member-2"> 
+                                     </div>
+                                 
+                               
                             </div>
-                            <div class="col-md-2 single-member col-sm-4">
-                                <div class="person">
-                                    <!-- <img class="img-responsive" src="img/drsakti.jpg" alt="member-3"> -->
-                                    <img class="img-responsive" src="doctors/vinod.jpg" alt="member-1">
-                                </div>
-                                <div class="person-detail">
-                                    <div class="arrow-bottom"></div>
-                                    <h4>Dr. Vinod Kumar</h4>
-                                    <p><strong>MBBS, DCH</strong></p>
-                                    <p>Fellowship in Neonatology <br>
-                                        Senior Consultant Neonatology/Paediatrics</p>
-                                    <button type="button" class="btn btn-primary"> About</button>
-                                </div>
-                            </div>
-                            <div class="col-md-2 single-member col-sm-4">
+                            --> 
+                            <!-- 
+                             <div class="col-md-2 single-member col-sm-4">
                                 <div class="person-detail">
                                     <div class="arrow-top"></div>
                                     <h4>Dr. Md. Khalid</h4>
@@ -1005,6 +1024,9 @@
                                     <img class="img-responsive" src="doctors/mdkhalid.jpg" alt="member-5">
                                 </div>
                             </div>
+                            --> 
+                            
+                            <!--  
                             <div class="col-md-2 single-member col-sm-4">
                                 <div class="person">
                                     <img class="img-responsive" src="doctors/jaiprakash.jpg" alt="member-5">
@@ -1019,7 +1041,24 @@
                                     </p>
                                 </div>
                             </div>
-                            <div class="col-md-2 single-member col-sm-4">
+                            --> 
+                           
+                           
+                             <div class="col-md-2 single-member col-sm-4">
+                                <div class="person">
+                                    <!-- <img class="img-responsive" src="img/drsakti.jpg" alt="member-3"> -->
+                                    <img class="img-responsive" src="doctors/vinod.jpg" alt="member-1">
+                                </div>
+                                <div class="person-detail">
+                                    <div class="arrow-bottom"></div>
+                                    <h4>Dr. Vinod Kumar</h4>
+                                    <p><strong>MBBS, DCH</strong></p>
+                                    <p>Fellowship in Neonatology <br>
+                                        Senior Consultant Neonatology/Paediatrics</p>
+                                    <button type="button" class="btn btn-primary"> About</button>
+                                </div>
+                            </div>
+                             <div class="col-md-2 single-member col-sm-4">
                                 <div class="person-detail">
                                     <div class="arrow-top"></div>
                                     <h4>Dr. Ramanuj Kumar</h4>
@@ -1032,12 +1071,29 @@
                                     <img class="img-responsive" src="doctors/ramanuj.jpg" alt="member-5">
                                 </div>
                             </div>
+                             <div class="col-md-2 single-member col-sm-4">
+                              <div class="person">
+                                    <img class="img-responsive" src="doctors/tarun.jpg" alt="member-5">
+                                    <!-- <img class="img-responsive" src="img/member2.jpg" alt="member-2"> -->
+                                </div>
+                                <div class="person-detail">
+                                    <div class="arrow-top"></div>
+                                    <h4>Dr. Tarun Adukia</h4>
+                                    <p><strong>MBBS, MS, MCH(Neurosurgery)</strong></p>
+                                    <p>Consultant Neuroscience</p> <br>
+                                    <button type="button" class="btn btn-primary"> About</button>
+                                </div>
+
+                               
+                            </div>
                             <!-- item2 -->
                         </div>
                         <!-- item3 -->
                         <!-- item3 -->
-                        <div class="item">
-                            <div class="col-md-2 single-member col-sm-4">
+                      
+                        <!-- 
+                          <div class="item">
+                          <div class="col-md-2 single-member col-sm-4">
                                 <div class="person">
                                     <img class="img-responsive" src="doctors/jainendra.jpg" alt="member-1">
                                 </div>
@@ -1050,21 +1106,11 @@
                                     <button type="button" class="btn btn-primary"> About</button>
                                 </div>
                             </div>
-                            <div class="col-md-2 single-member col-sm-4">
-                                <div class="person-detail">
-                                    <div class="arrow-top"></div>
-                                    <h4>Dr. Tarun Adukia</h4>
-                                    <p><strong>MBBS, MS, MCH(Neurosurgery)</strong></p>
-                                    <p>Consultant Neuroscience</p> <br>
-                                    <button type="button" class="btn btn-primary"> About</button>
-                                </div>
-
-                                <div class="person">
-                                    <img class="img-responsive" src="doctors/tarun.jpg" alt="member-5">
-                                    <!-- <img class="img-responsive" src="img/member2.jpg" alt="member-2"> -->
-                                </div>
-                            </div>
-                        </div>
+                              </div>
+                            --> 
+                          
+                           
+                      
                         <!-- item3 -->
                         <!-- item3 -->
                     </div>
@@ -1104,25 +1150,48 @@
                                                     <p>Mon To Sat | </p>
                                                 </div>
                                             </div>
+                                            
                                             <div class="col-md-4 col-sm-6">
                                                 <div class="section-doctor Pediatrician-doctor">
-                                                    <p class="doctors-name">Dr Khaild Md Saifullah </p>
-                                                    <p class="doctors-degree">MD (Paed), MRCP</p>
-                                                    <p>Mon To Sat | </p>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-4 col-sm-6">
-                                                <div class="section-doctor Pediatrician-doctor">
-                                                    <p class="doctors-name"> Dr Vinod Kumar</p>
+                                                    <p class="doctors-name"> Dr Vinod Kumar (Sr. Consultant )</p>
                                                     <p class="doctors-degree">MBBS, DCH, Fellow (Neonat)</p>
                                                     <p>Sr. Consultant Neonatology/Paediatrics</p>
                                                     <p>Mon To Sat | </p>
                                                 </div>
                                             </div>
+                                         
                                             <div class="col-md-4 col-sm-6">
                                                 <div class="section-doctor Pediatrician-doctor">
-                                                    <p class="doctors-name">Dr Vikas Anand</p>
-                                                    <p class="doctors-degree">MD (Paed), Fellow (Neonat)</p>
+                                                    <p class="doctors-name"> Dr. Khalid M Saifullah (Sr. Consultant ) </p>
+                                                    <p class="doctors-degree">MBBS, MD (Paed), MRCP</p>
+                                                    <p>Mon To Sat | </p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 col-sm-6">
+                                                <div class="section-doctor Pediatrician-doctor">
+                                                    <p class="doctors-name">Dr. ANKIT KUMAR (Consultant) </p>
+                                                    <p class="doctors-degree">MD,DM ( NEONATALOGY )</p>
+                                                    <p>Mon To Sat | </p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 col-sm-6">
+                                                <div class="section-doctor Pediatrician-doctor">
+                                                    <p class="doctors-name">Dr. SHRIYA AKANKSHA (Consultant) </p>
+                                                    <p class="doctors-degree">MD,DM ( NEONATALOGY )</p>
+                                                    <p>Mon To Sat | </p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 col-sm-6">
+                                                <div class="section-doctor Pediatrician-doctor">
+                                                    <p class="doctors-name">Dr. Garima Dipti (Consultant) </p>
+                                                    <p class="doctors-degree">MBBS, MD (Paed), Fellowship (Neonat)</p>
+                                                    <p>Mon To Sat | </p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 col-sm-6">
+                                                <div class="section-doctor Pediatrician-doctor">
+                                                    <p class="doctors-name">Dr. Ankit Ranjan (Consultant) </p>
+                                                    <p class="doctors-degree">MBBS, MD (Paed), DM(Neonat)</p>
                                                     <p>Mon To Sat | </p>
                                                 </div>
                                             </div>
@@ -1198,13 +1267,16 @@
                                                 <p>Mon To Sat | </p>
                                             </div>
                                         </div>
-                                        <div class="col-md-4 col-sm-6">
+                                        <!--
+                                         <div class="col-md-4 col-sm-6">
                                             <div class="section-doctor Pediatrician-doctor">
                                                 <p class="doctors-name">Dr Shakti Pad Das</p>
                                                 <p class="doctors-degree">MD (Paed)</p>
                                                 <p>Mon To Sat | </p>
                                             </div>
                                         </div>
+                                         --> 
+                                       
                                         <div class="col-md-4 col-sm-6">
                                             <div class="section-doctor Pediatrician-doctor">
                                                 <p class="doctors-name">Dr Md. Khalid</p>
@@ -1233,6 +1305,20 @@
                                                 <p>Mon To Sat | </p>
                                             </div>
                                         </div>
+                                        <div class="col-md-4 col-sm-6">
+                                            <div class="section-doctor Pediatrician-doctor">
+                                                <p class="doctors-name">Dr. Asif Iqubal (Sr. Resident)</p>
+                                                <p class="doctors-degree">MBBS, MD (Paed)</p>
+                                                <p>Mon To Sat | </p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-sm-6">
+                                            <div class="section-doctor Pediatrician-doctor">
+                                                <p class="doctors-name">Dr. Ananta Jayasawal (Consultant)</p>
+                                                <p class="doctors-degree">MBBS, MD (Paed)</p>
+                                                <p>Mon To Sat | </p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -1255,13 +1341,16 @@
                                                 <p>Mon To Sat | </p>
                                             </div>
                                         </div>
-                                        <div class="col-md-4 col-sm-6">
+                                        <!-- 
+                                                                                <div class="col-md-4 col-sm-6">
                                             <div class="section-doctor Pediatrician-doctor">
                                                 <p class="doctors-name">Dr Jainendra Kumar</p>
                                                 <p class="doctors-degree">MS, MRCS, MCH</p>
                                                 <p>Mon To Sat | </p>
                                             </div>
                                         </div>
+                                        -->
+
                                     </div>
                                 </div>
                             </div>
@@ -1292,11 +1381,28 @@
                                     </div>
                                     <div class="col-md-4 col-sm-6">
                                         <div class="section-doctor Pediatrician-doctor">
+                                            <p class="doctors-name">Dr. Vishwanath Brahmachari (Consultant)</p>
+                                            <p class="doctors-degree">MBBS, MD, DNB (Paed)</p>
+                                            <p>Mon To Sat | </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6">
+                                        <div class="section-doctor Pediatrician-doctor">
+                                            <p class="doctors-name">Dr. Zeeshan Ahmed (Consultant)</p>
+                                            <p class="doctors-degree">MBBS, MD, DNB (Paed), PDDC </p>
+                                            <p>Mon To Sat | </p>
+                                        </div>
+                                    </div>
+                                    <!--
+                                     <div class="col-md-4 col-sm-6">
+                                        <div class="section-doctor Pediatrician-doctor">
                                             <p class="doctors-name">Dr Shakti Pad Das</p>
                                             <p class="doctors-degree">MD (Paed)</p>
                                             <p>Mon To Sat | </p>
                                         </div>
                                     </div>
+                                     -->
+                                   
                                 </div>
                             </div>
                         </div>
@@ -1312,8 +1418,8 @@
                                 <div class="panel-body">
                                     <div class="col-md-4 col-sm-6">
                                         <div class="section-doctor Pediatrician-doctor">
-                                            <p class="doctors-name">Dr Rajiv Sinha / Dr Rana Saha</p>
-                                            <p class="doctors-degree">Visiting</p>
+                                            <p class="doctors-name">Dr Rajiv Sinha (Sr. Consultant ) </p>
+                                            <p class="doctors-degree">MBBS, MD(Paed), DM(Nephro)</p>
                                             <p>Mon To Sat | </p>
                                         </div>
                                     </div>
@@ -1332,8 +1438,22 @@
                                 <div class="panel-body">
                                     <div class="col-md-4 col-sm-6">
                                         <div class="section-doctor Pediatrician-doctor">
-                                            <p class="doctors-name">Dr Tarun Adukia</p>
-                                            <p class="doctors-degree">MS, MCH (Neurosurgery)</p>
+                                            <p class="doctors-name">Dr. Tarun Kumar Adukia (Sr. Consultant )</p>
+                                            <p class="doctors-degree">MBBS, MS, MCH (Neurosurgery)</p>
+                                            <p>Mon To Sat | </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6">
+                                        <div class="section-doctor Pediatrician-doctor">
+                                            <p class="doctors-name">Dr. Abhishek Kumar Dubey (Sr. Consultant )</p>
+                                            <p class="doctors-degree">MBBS, MD (Paed), DM (Neuro)</p>
+                                            <p>Mon To Sat | </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6">
+                                        <div class="section-doctor Pediatrician-doctor">
+                                            <p class="doctors-name">Dr. Shyamal Kumar Das (Sr. Consultant )</p>
+                                            <p class="doctors-degree">MBBS, Md (Paed)</p>
                                             <p>Mon To Sat | </p>
                                         </div>
                                     </div>
@@ -1354,6 +1474,15 @@
                                         <div class="section-doctor Pediatrician-doctor">
                                             <p class="doctors-name">Dr JN Jha</p>
                                             <p class="doctors-degree">MD</p>
+                                            <p>Mon To Sat | </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel-body">
+                                    <div class="col-md-4 col-sm-6">
+                                        <div class="section-doctor Pediatrician-doctor">
+                                            <p class="doctors-name">Dr. Neeta Singhal (Anesthetist)</p>
+                                            <p class="doctors-degree">MBBS, MD(Anaesthesia)</p>
                                             <p>Mon To Sat | </p>
                                         </div>
                                     </div>
@@ -1401,6 +1530,77 @@
                             </div>
                         </div>
                         <!-- /pathology-->
+                        <!-- PEDIATRIC GASTROENTEROLOGY -->
+                        <div class="panel panel-default" data-toggle="collapse" href="#PediatricGastroentrology">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">
+                                    <a>Pediatric Gastroentrology</a>
+                                </h3>
+                            </div>
+                            <div id="PediatricGastroentrology" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <div class="col-md-4 col-sm-6">
+                                        <div class="section-doctor Pediatrician-doctor">
+                                            <p class="doctors-name">Dr. SOUGATA MAHATO </p>
+                                            <p class="doctors-degree">MD,DM(PEDIATRIC GASTRO)</p>
+                                            <p>Full Time Consultant </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default" data-toggle="collapse" href="#genetics">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">
+                                    <a> Genetics</a>
+                                </h3>
+                            </div>
+                            <div id="genetics" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <div class="col-md-4 col-sm-6">
+                                        <div class="section-doctor Pediatrician-doctor">
+                                            <p class="doctors-name">Dr. Bhavna Agrwal (Sr. Consultant ) </p>
+                                            <p class="doctors-degree">MBBS, MD(Paed)</p>
+                                            <p>Mon-Sat </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- / PEDIATRIC GASTROENTEROLOGY -->
+                         <!-- PEDIATRIC SURGERY -->
+                            <div class="panel panel-default" data-toggle="collapse" href="#PediatricSurgery">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">
+                                    <a>Pediatric Surgery</a>
+                                </h3>
+                            </div>
+                            <div id="PediatricSurgery" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <div class="col-md-4 col-sm-6">
+                                        <div class="section-doctor Pediatrician-doctor">
+                                            <p class="doctors-name">Dr. RAMANUJ KUMAR  </p>
+                                            <p class="doctors-degree">MBBS, MS (Paed Surgery), MCH, JCMR</p>
+                                            <p>Full Time Consultant </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6">
+                                        <div class="section-doctor Pediatrician-doctor">
+                                            <p class="doctors-name">Dr. MD. IMRAN   </p>
+                                            <p class="doctors-degree">MBBS, MCH (Paed Surgery)</p>
+                                            <p>Full Time Consultant </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                             <!-- / PEDIATRIC SURGERY -->
+                               
+                        </div>
+                         
+                          
+                      <!-- NEONATOLOGY FACILITIES -->
+                      
                     </div>
                     <!-- /doctors list-->
                 </div>
@@ -1411,7 +1611,7 @@
     <!-- end of team section -->
     <!-- customer feedback -->
     <!-- customer review -->
-    <section class="about text-center" style="margin-bottom: 10px;">
+    <section class="text-center about" style="margin-bottom: 10px;">
         <div class="container about">
             <div class="row">
                 <h1><i class="fa fa-spinner fa-spin"></i> Patient's Feedback</h1>
@@ -1426,34 +1626,50 @@
                                 <div class="col-md-4 col-sm-6">
                                     <div class="block-text rel zmin">
                                         <a title="" href="#">Shriram Kumar</a>
-                                        <div class="mark">My rating: <span class="rating-input"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star"></span><span data-value="3" class="glyphicon glyphicon-star"></span><span data-value="4" class="glyphicon glyphicon-star"></span></div>
+                                        <div class="mark">My rating: <span class="rating-input"><span
+                                                    data-value="0" class="glyphicon glyphicon-star"></span><span
+                                                    data-value="1" class="glyphicon glyphicon-star"></span><span
+                                                    data-value="2" class="glyphicon glyphicon-star"></span><span
+                                                    data-value="3" class="glyphicon glyphicon-star"></span><span
+                                                    data-value="4" class="glyphicon glyphicon-star"></span></div>
                                         <p>Rani hospital is the best hospital for childrens,docters are very good and
                                             staffs is also having helping nature.
                                             And very very thanks for doctor now my child is so well and out of
                                             trouble....</p>
-                                        <ins class="ab zmin sprite sprite-i-triangle block"></ins>
+                                        <ins class="block ab zmin sprite sprite-i-triangle"></ins>
                                     </div>
                                 </div>
                                 <div class="col-md-4 col-sm-6">
                                     <div class="block-text rel zmin">
                                         <a title="" href="#">Anshu Kumar</a>
-                                        <div class="mark">My rating: <span class="rating-input"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star"></span><span data-value="3" class="glyphicon glyphicon-star"></span><span data-value="4" class="glyphicon glyphicon-star"></span></span></div>
+                                        <div class="mark">My rating: <span class="rating-input"><span
+                                                    data-value="0" class="glyphicon glyphicon-star"></span><span
+                                                    data-value="1" class="glyphicon glyphicon-star"></span><span
+                                                    data-value="2" class="glyphicon glyphicon-star"></span><span
+                                                    data-value="3" class="glyphicon glyphicon-star"></span><span
+                                                    data-value="4" class="glyphicon glyphicon-star"></span></span>
+                                        </div>
                                         <p>Very nice hospital.dr.shailesh chandra very good and patiently handle each
                                             case.never gives too much medicine to child.and explains very nicely.visited
                                             many doctors for my child,,all told many things but he is very good
                                             doctor.ghabrate mother father v shant ho skte. </p>
-                                        <ins class="ab zmin sprite sprite-i-triangle block"></ins>
+                                        <ins class="block ab zmin sprite sprite-i-triangle"></ins>
                                     </div>
                                 </div>
                                 <div class="col-md-4 col-sm-6">
                                     <div class="block-text rel zmin">
                                         <a title="" href="#">Rakesh Sharma</a>
-                                        <div class="mark">My rating: <span class="rating-input"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star"></span><span data-value="3" class="glyphicon glyphicon-star"></span><span data-value="4" class="glyphicon glyphicon-star"></span></div>
+                                        <div class="mark">My rating: <span class="rating-input"><span
+                                                    data-value="0" class="glyphicon glyphicon-star"></span><span
+                                                    data-value="1" class="glyphicon glyphicon-star"></span><span
+                                                    data-value="2" class="glyphicon glyphicon-star"></span><span
+                                                    data-value="3" class="glyphicon glyphicon-star"></span><span
+                                                    data-value="4" class="glyphicon glyphicon-star"></span></div>
                                         <p>This is one of the best children hospital in jharkhand state of Ranchi
                                             district. Here very good facilities are given by the hospital to take better
                                             treatment of children. If you have any type of problem about your children
                                             of his mother. Here lots of treatment in one roof.</p>
-                                        <ins class="ab zmin sprite sprite-i-triangle block"></ins>
+                                        <ins class="block ab zmin sprite sprite-i-triangle"></ins>
                                     </div>
                                 </div>
                             </div>
@@ -1461,36 +1677,54 @@
                                 <div class="col-md-4 col-sm-6">
                                     <div class="block-text rel zmin">
                                         <a title="" href="#">Shashi Ranjan</a>
-                                        <div class="mark">My rating: <span class="rating-input"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star"></span><span data-value="3" class="glyphicon glyphicon-star"></span><span data-value="4" class="glyphicon glyphicon-star"></span></div>
+                                        <div class="mark">My rating: <span class="rating-input"><span
+                                                    data-value="0" class="glyphicon glyphicon-star"></span><span
+                                                    data-value="1" class="glyphicon glyphicon-star"></span><span
+                                                    data-value="2" class="glyphicon glyphicon-star"></span><span
+                                                    data-value="3" class="glyphicon glyphicon-star"></span><span
+                                                    data-value="4" class="glyphicon glyphicon-star"></span></div>
                                         <p>Rani Hospital is the best Paediatric Hospital in Ranchi(Jharkhand)having best
                                             paediatric Doctor Round the clock and equipped with all latest technology to
                                             care the patient with Patient satisfaction and humanity.</p>
-                                        <ins class="ab zmin sprite sprite-i-triangle block"></ins>
+                                        <ins class="block ab zmin sprite sprite-i-triangle"></ins>
                                     </div>
                                 </div>
                                 <div class="col-md-4 col-sm-6">
                                     <div class="block-text rel zmin">
                                         <a title="" href="#">Mihir Raj</a>
-                                        <div class="mark">My rating: <span class="rating-input"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star"></span><span data-value="3" class="glyphicon glyphicon-star"></span><span data-value="4" class="glyphicon glyphicon-star-empty"></span></div>
+                                        <div class="mark">My rating: <span class="rating-input"><span
+                                                    data-value="0" class="glyphicon glyphicon-star"></span><span
+                                                    data-value="1" class="glyphicon glyphicon-star"></span><span
+                                                    data-value="2" class="glyphicon glyphicon-star"></span><span
+                                                    data-value="3" class="glyphicon glyphicon-star"></span><span
+                                                    data-value="4" class="glyphicon glyphicon-star-empty"></span>
+                                        </div>
                                         <p>Its a modern hospital for children in ranchi.
                                             Many people in ranchi come here for the treatment of there child.
                                             And 2 hospital side by side.
                                             Is a good as it have canteen and parking nd stalls outside if u want to use
                                             them. </p>
-                                        <ins class="ab zmin sprite sprite-i-triangle block"></ins>
+                                        <ins class="block ab zmin sprite sprite-i-triangle"></ins>
                                     </div>
                                 </div>
                                 <div class="col-md-4 col-sm-6">
                                     <div class="block-text rel zmin">
                                         <a title="" href="#">CHITRANJAN SINGH</a>
-                                        <div class="mark">My rating: <span class="rating-input"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star"></span><span data-value="3" class="glyphicon glyphicon-star"></span><span data-value="4" class="glyphicon glyphicon-star"></span><span data-value="5" class="glyphicon glyphicon-star"></span> </span></div>
+                                        <div class="mark">My rating: <span class="rating-input"><span
+                                                    data-value="0" class="glyphicon glyphicon-star"></span><span
+                                                    data-value="1" class="glyphicon glyphicon-star"></span><span
+                                                    data-value="2" class="glyphicon glyphicon-star"></span><span
+                                                    data-value="3" class="glyphicon glyphicon-star"></span><span
+                                                    data-value="4" class="glyphicon glyphicon-star"></span><span
+                                                    data-value="5" class="glyphicon glyphicon-star"></span> </span>
+                                        </div>
                                         <p>This is the only pediatrician hospital in Jharkhand. It is equipped with
                                             every facility for the treatment of children. Major cases of urban and rural
                                             areas are referred to this hospital.The hospital is so skilled in its work
                                             that until the completion is not satisfied, it does not discharge.
                                             It is my personal opinion that it would be best to get treatment from Dr.
                                             Rajesh, the senior doctor of this hospital.</p>
-                                        <ins class="ab zmin sprite sprite-i-triangle block"></ins>
+                                        <ins class="block ab zmin sprite sprite-i-triangle"></ins>
                                     </div>
                                 </div>
                             </div>
@@ -1514,7 +1748,9 @@
             <div class="row">
                 <div class="col-md-12 map" id="map">
                     <div id="map-container-google-1" class="z-depth-1-half map-container">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d69698.313495919!2d85.3095406171249!3d23.349609799346446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f4e11843d380af%3A0x39715bc46113cea3!2sRani%20Hospital!5e0!3m2!1sen!2sin!4v1642145209640!5m2!1sen!2sin" style="border:0; width: 100%; height: 830px;" allowfullscreen="" loading="lazy"></iframe>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d69698.313495919!2d85.3095406171249!3d23.349609799346446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f4e11843d380af%3A0x39715bc46113cea3!2sRani%20Hospital!5e0!3m2!1sen!2sin!4v1642145209640!5m2!1sen!2sin"
+                            style="border:0; width: 100%; height: 830px;" allowfullscreen="" loading="lazy"></iframe>
                     </div>
                 </div>
             </div>
@@ -1526,18 +1762,19 @@
     <section class="contact">
         <div class="container">
             <div class="row">
-                <div class="contact-caption clearfix">
-                    <div class="contact-heading text-center">
+                <div class="clearfix contact-caption">
+                    <div class="text-center contact-heading">
                         <h2>contact us</h2>
                     </div>
-                    <div class="col-md-5 contact-info text-left">
+                    <div class="text-left col-md-5 contact-info">
                         <h3>contact information</h3>
                         <div class="info-detail">
                             <ul>
                                 <li><i class="fa fa-calendar"></i><span>Monday - Friday:</span> 9:30 AM to 6:30 PM</li>
                             </ul>
                             <ul>
-                                <li><i class="fa fa-map-marker"></i><span>Address:</span>in Front of Governor House, Behind Machali Ghar</li>
+                                <li><i class="fa fa-map-marker"></i><span>Address:</span>in Front of Governor House,
+                                    Behind Machali Ghar</li>
                                 <li>Booty Road, Ranchi- 834001</li>
                             </ul>
                             <ul>
@@ -1548,10 +1785,13 @@
                                     18002574010</li>
                             </ul>
                             <ul>
-                                <li><i class="fa fa-envelope"></i><span>Email:</span><a href="mailto:info@ranihospital.com"></a>info@ranihospital.com</li>
+                                <li><i class="fa fa-envelope"></i><span>Email:</span><a
+                                        href="mailto:info@ranihospital.com"></a>info@ranihospital.com</li>
                             </ul>
                             <ul>
-                                <li><i class="fa fa-map-marker"></i><a target="_blank" href="https://www.google.com/maps/dir/23.3478614,85.303271/rani+hospital+ranchi/@23.3657258,85.2944984,14z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x39f4e11843d380af:0x39715bc46113cea3!2m2!1d85.3222526!2d23.3826291"><span style="color: white;">Our Location Map</span></a></li>
+                                <li><i class="fa fa-map-marker"></i><a target="_blank"
+                                        href="https://www.google.com/maps/dir/23.3478614,85.303271/rani+hospital+ranchi/@23.3657258,85.2944984,14z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x39f4e11843d380af:0x39715bc46113cea3!2m2!1d85.3222526!2d23.3826291"><span
+                                            style="color: white;">Our Location Map</span></a></li>
                             </ul>
                         </div>
                     </div>
@@ -1575,7 +1815,7 @@
     @include('web-views.footer')
     <!-- footer ends here -->
     <!-- script tags
-	============================================================= -->
+ ============================================================= -->
     <script>
         const checkpoint = 700;
 

@@ -26,6 +26,7 @@ Route::controller(WebPagesController::class)->group(function () {
     Route::get('/about', 'about');
     Route::get('/service', 'service');
     Route::get('/education', 'education');
+    Route::get('/schedule', 'schedule');
 });
 
 // Route::get('/', function () {

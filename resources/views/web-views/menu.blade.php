@@ -3,7 +3,7 @@
     <div id="topbar" class="hoc clear">
         <!-- ################################################################################################ -->
         <div class="fl_left">
-            <ul class="nospace inline pushright">
+            <ul class="inline nospace pushright">
                 <li><i class="fa fa-phone"></i> <a class="topno" href="tel:+91 7677111010">+91 7677111010</a></li>
                 <li><i class="fa fa-envelope-o"></i> <a class="topno" href="mailto:info@ranihospital.com">info@ranihospital.com</a></li>
                 <li><i class="fa fa-tty"></i> Toll Free No.:- <a class="topno" href="tel:18002574010"> 18002574010</a></li>
@@ -41,7 +41,8 @@
                 </a>
                 <span style="font-size:15px; color: #fff" class="p hidden-xs">Managed by Dukhharan Memorial
                     Charitable Trust</span>
-                <img src="img/nabh2.png" alt="" class="nabh_logo hidden-sm hidden-xs">
+                    <!--    <img src="img/nabh2.png" alt="" class="nabh_logo hidden-sm hidden-xs">  -->
+              
             </div>
 
             <div class="col-md-8">
@@ -70,8 +71,11 @@
                                 <li><a class="menu" href="index.php#team"><i class="fa fa-user-md"></i> Doctors</a></li>
                                 <li><a class="menu" href="/education"><i class="fa fa-book"></i> Academics</a>
                                 </li>
+                                 <li><a class="menu" href="/schedule"><i class="fa fa-calendar"></i> OPD Schedule</a>
+                                </li>
                                 <li><a class="menu" href="index.php#contact"><i class="fa fa-phone"></i> Contact Us</a>
                                 </li>
+                               
 
                                 <!-- <li><a class="menu" href="blog/admin/login.php"><i class="fa fa-sign-in"></i> Sign
                                 In</a></li> -->
