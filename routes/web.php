@@ -27,6 +27,7 @@ Route::controller(WebPagesController::class)->group(function () {
     Route::get('/service', 'service');
     Route::get('/education', 'education');
     Route::get('/schedule', 'schedule');
+    Route::get('/blogs', 'blogs');
 });
 
 // Route::get('/', function () {
@@ -47,6 +48,7 @@ Route::middleware([
         return view('dashboard');
     })->name('dashboard');
 
+   
     Route::get('user/profile', function () {
         return view('profile.show');
     })->name('profile.show');

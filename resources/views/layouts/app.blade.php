@@ -49,7 +49,7 @@
     @yield('pagecss')
 </head>
 
-<body data-open="click" data-menu="vertical-menu" data-col="2-columns" class="vertical-layout vertical-menu 2-columns  fixed-navbar">
+<body data-open="click" data-menu="vertical-menu" data-col="2-columns" class="vertical-layout vertical-menu 2-columns fixed-navbar">
 
     <!-- navbar-fixed-top-->
     <nav class="header-navbar navbar navbar-with-menu navbar-fixed-top navbar-semi-dark navbar-shadow">
@@ -73,10 +73,10 @@
                         </li>
                     </ul>
                     <ul class="nav navbar-nav float-xs-right">
-                        <li class="dropdown dropdown-notification nav-item"><a href="#" data-toggle="dropdown" class="nav-link nav-link-label"><i class="ficon icon-bell4"></i><span class="tag tag-pill tag-default tag-danger tag-default tag-up">5</span></a>
+                        <li class="dropdown dropdown-notification nav-item"><a href="#" data-toggle="dropdown" class="nav-link nav-link-label"><i class="ficon icon-bell4"></i><span class="tag tag-pill tag-default tag-danger tag-up">5</span></a>
                             <ul class="dropdown-menu dropdown-menu-media dropdown-menu-right">
                                 <li class="dropdown-menu-header">
-                                    <h6 class="dropdown-header m-0"><span class="grey darken-2">Notifications</span><span class="notification-tag tag tag-default tag-danger float-xs-right m-0">5
+                                    <h6 class="m-0 dropdown-header"><span class="grey darken-2">Notifications</span><span class="m-0 notification-tag tag tag-default tag-danger float-xs-right">5
                                             New</span></h6>
                                 </li>
                                 <li class="list-group scrollable-container"><a href="javascript:void(0)" class="list-group-item">
@@ -129,10 +129,10 @@
                                 <li class="dropdown-menu-footer"><a href="javascript:void(0)" class="dropdown-item text-muted text-xs-center">Read all notifications</a></li>
                             </ul>
                         </li>
-                        <li class="dropdown dropdown-notification nav-item"><a href="#" data-toggle="dropdown" class="nav-link nav-link-label"><i class="ficon icon-mail6"></i><span class="tag tag-pill tag-default tag-info tag-default tag-up">8</span></a>
+                        <li class="dropdown dropdown-notification nav-item"><a href="#" data-toggle="dropdown" class="nav-link nav-link-label"><i class="ficon icon-mail6"></i><span class="tag tag-pill tag-default tag-info tag-up">8</span></a>
                             <ul class="dropdown-menu dropdown-menu-media dropdown-menu-right">
                                 <li class="dropdown-menu-header">
-                                    <h6 class="dropdown-header m-0"><span class="grey darken-2">Messages</span><span class="notification-tag tag tag-default tag-info float-xs-right m-0">4
+                                    <h6 class="m-0 dropdown-header"><span class="grey darken-2">Messages</span><span class="m-0 notification-tag tag tag-default tag-info float-xs-right">4
                                             New</span></h6>
                                 </li>
                                 <li class="list-group scrollable-container"><a href="javascript:void(0)" class="list-group-item">
@@ -211,7 +211,10 @@
                 <!-- MENU MASTER -->
                 <li class="active"><a href="/dashboard"><i class="icon-home3"></i><span data-i18n="" class="menu-title">Dashboard</span></a>
                 </li>
+                   <li><a href="/blogs"><i class="icon-home3"></i><span data-i18n="" class="menu-title">Blogs </span></a>
+                </li>
 
+                 <!-- 
                 <li><a href="/crud/departments"><i class="icon-home3"></i><span data-i18n="" class="menu-title">Departments</span></a>
                 </li>
 
@@ -226,7 +229,7 @@
 
                 <li><a href="/crud/users"><i class="icon-home3"></i><span data-i18n="" class="menu-title">Users</span></a>
                 </li>
-
+-->
             </ul>
         </div>
         <!-- /main menu content-->
@@ -254,7 +257,7 @@
 
 
     <footer class="footer footer-static footer-light navbar-border">
-        <p class="clearfix text-muted text-sm-center mb-0 px-2"><span class="float-md-left d-xs-block d-md-inline-block">Copyright &copy; 2024 <a href="" target="_blank" class="text-bold-800 grey darken-2">{{Config::get('constant-variable.ULB_NAME.FULL')}} </a>, All rights reserved.
+        <p class="clearfix px-2 mb-0 text-muted text-sm-center"><span class="float-md-left d-xs-block d-md-inline-block">Copyright &copy; 2024 <a href="" target="_blank" class="text-bold-800 grey darken-2">{{Config::get('constant-variable.ULB_NAME.FULL')}} </a>, All rights reserved.
             </span><span class="float-md-right d-xs-block d-md-inline-block">Hand-crafted & Made with <i class="icon-heart5 pink"></i> <strong>Framework Futuristic Pvt Ltd</strong></span></p>
     </footer>
 

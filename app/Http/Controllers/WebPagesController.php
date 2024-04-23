@@ -53,4 +53,8 @@ class WebPagesController extends Controller
     {
         return view('web-views/schedule');
     }
+    public function blogs()
+    {
+        return view('web-views/blogs');
+    }
 }

@@ -12,13 +12,16 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="Keywords" content="Children Hospital, Hospital, Jharkhand, Ranchi, Multispecialty, ICU, Neonatal ICU, 24x7 Critical Care Ambulance Service">
-    <meta name="Description" content="Rani Hospital is the largest Children Hospital in Jharkhand. 250 bedded hospital with modern clinical and surgical facilities for infants and children.">
+    <meta name="Keywords"
+        content="Children Hospital, Hospital, Jharkhand, Ranchi, Multispecialty, ICU, Neonatal ICU, 24x7 Critical Care Ambulance Service">
+    <meta name="Description"
+        content="Rani Hospital is the largest Children Hospital in Jharkhand. 250 bedded hospital with modern clinical and surgical facilities for infants and children.">
     <title>Rani Hospital</title>
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:600italic,400,800,700,300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:600italic,400,800,700,300' rel='stylesheet'
+        type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=BenchNine:300,400,700' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Ibarra+Real+Nova&display=swap" rel="stylesheet">
     <!-- favicon -->
@@ -269,16 +272,197 @@
                 background-size: cover;
             }
         }
+
+        .notice {
+            text-align: center;
+            /* Center the heading */
+        }
+
+        .paragraph-section {
+            height: 200px;
+            /* Adjust paragraph section height as needed */
+            overflow: auto;
+            /* Enable scrolling if content exceeds height */
+        }
+
+        .image-section {
+            display: flex;
+            /* Use flexbox for positioning */
+            align-items: center;
+            /* Center image vertically */
+            justify-content: center;
+            /* Center image horizontally */
+            height: 200px;
+            /* Adjust image section height as needed */
+        }
+
+        .image-section img {
+            max-width: 100%;
+            /* Ensure image doesn't exceed container width */
+            max-height: 100%;
+            /* Ensure image doesn't exceed container height */
+        }
+
+        /* Modal styles */
+        .modal {
+            display: none;
+            /* Hidden by default */
+            position: fixed;
+            /* Stay in place */
+            z-index: 1000;
+            /* Sit on top */
+            left: 0;
+            top: 0;
+            width: 100%;
+            /* Full width */
+            height: 100%;
+            /* Full height */
+            overflow: auto;
+            /* Enable scroll if needed */
+            background-color: rgba(0, 0, 0, 0.8);
+            /* Black background with opacity */
+        }
+
+        /* Modal content */
+        .modal-content {
+            margin: auto;
+            display: block;
+            max-width: 80%;
+            max-height: 80%;
+        }
+
+        /* Close button */
+        .close {
+            color: white;
+            position: absolute;
+            top: 10px;
+            right: 25px;
+            font-size: 35px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: #999;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        /* Modal styles */
+        .modal {
+            display: none;
+            /* Hidden by default */
+            position: fixed;
+            /* Stay in place */
+            z-index: 1000;
+            /* Sit on top */
+            left: 0;
+            top: 0;
+            width: 100%;
+            /* Full width */
+            height: 100%;
+            /* Full height */
+            overflow: auto;
+            /* Enable scroll if needed */
+            background-color: rgba(0, 0, 0, 0.8);
+            /* Black background with opacity */
+            margin-bottom: 20px;
+        }
+
+        /* Modal content */
+        .modal-content {
+            margin: auto;
+            display: block;
+            max-width: 50%;
+            max-height: 50%;
+            margin-bottom: 20px;
+        }
+
+        /* Close button */
+       .close {
+        color: #fff; /* Change color to bright white */
+        position: absolute;
+        top: 5px; /* Adjust top position as needed */
+        right: 15px; /* Adjust right position as needed */
+        font-size: 40px; /* Increase font size */
+        font-weight: normal; /* Adjust font weight as needed */
+        cursor: pointer;
+    }
+
+        .close:hover,
+        .close:focus {
+            color: #999;
+            text-decoration: none;
+            cursor: pointer;
+        }
     </style>
 </head>
 
 <body>
 
     <!-- ====================================================
-	header section -->
+ header section -->
     @include('web-views.menu')
     <!-- end of header area -->
     <!-- Educational Programs -->
+
+   
+
+      <section class="text-center about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <!-- DNB -->
+                    <h2>Notice  Programs</h2>
+                    <h1><i class="fa fa-spinner"></i> Doctors Notice</h1>
+                    <div class="col-md-6">
+                        <blockquote>
+                                 <div class="notice-container" style="margin-top: 20px;"> <!-- Adjust margin-top value as needed -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="notice">
+                            <!-- Centered Heading -->
+                            <h3 class="text-center">Important Notice</h3>
+                            <!-- Paragraph Section -->
+                            <div class="paragraph-section">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan tempor
+                                    quam,
+                                    ut scelerisque
+                                    metus tincidunt eget. Fusce ut venenatis ligula. Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit.
+                                    Nulla accumsan tempor quam, ut scelerisque metus tincidunt eget. Fusce ut
+                                    venenatis
+                                    ligula.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <!-- Demo Image Section -->
+                        <div class="image-section">
+                            <img src="img/blogs1.jpg" alt="Demo Image" class="preview-image">
+                        </div>
+                    </div>
+                    <div id="imagePreviewModal" class="modal">
+                        <span class="close">&times;</span>
+                        <img class="modal-content" id="previewImage">
+                    </div>
+                </div>
+            </div>
+        </div>
+                        </blockquote>
+                    </div>
+                    
+                    <!-- DNB -->
+                    <!-- ====================================================================================== -->
+                  
+                    <hr class="linecolor">
+                </div>
+            </div>
+        </div>
+    </section>
+    
     <section class="text-center about" id="about">
         <div class="container">
             <div class="row">
@@ -289,19 +473,29 @@
                     <div class="col-md-6">
                         <blockquote>
                             <p class="p">
-                                <i class="fa fa-external-link"></i> Rani Hospital has been accredited by national borad of
-                                examinations in Medical Sciences for DNB (Pediatrics) course from january 2019 sesion for
+                                <i class="fa fa-external-link"></i> Rani Hospital has been accredited by national borad
+                                of
+                                examinations in Medical Sciences for DNB (Pediatrics) course from january 2019 sesion
+                                for
                                 04(Post MD) and 04 (Post Diploma) seats.
                             </p>
-                            <p class="p"><i class="fa fa-external-link"></i> Also been accredited by National Board of
-                                Examinations in Medical Sciences for DNB super speciality course - DrNB (Pediatric surgery)
+                            <p class="p"><i class="fa fa-external-link"></i> Also been accredited by National
+                                Board
+                                of
+                                Examinations in Medical Sciences for DNB super speciality course - DrNB (Pediatric
+                                surgery)
                                 from ;july 2021 session for seats.</p>
-                            <p class="p"><i class="fa fa-external-link"></i> The Hospital is also accredited by national
-                                Board of Examinations in Medical Sciences for Post MBBS Diploma (DCH) course for 04 seats</p>
-                            <p class="p"><i class="fa fa-external-link"></i> For further details please visit the website:
+                            <p class="p"><i class="fa fa-external-link"></i> The Hospital is also accredited by
+                                national
+                                Board of Examinations in Medical Sciences for Post MBBS Diploma (DCH) course for 04
+                                seats</p>
+                            <p class="p"><i class="fa fa-external-link"></i> For further details please visit the
+                                website:
                                 <a href="www.natboard.edu.in">www.natboard.edu.in</a>
                             </p>
-                            <p class="p"><i class="fa fa-external-link"></i> In-house registered Instituitional Ethics Committee (IEC) with Department of Health Research (DHR), Ministry of Health and Family Welfare, New Delhi vide File no-EC/NEW/INST/2020/1133 and also has
+                            <p class="p"><i class="fa fa-external-link"></i> In-house registered Instituitional
+                                Ethics Committee (IEC) with Department of Health Research (DHR), Ministry of Health and
+                                Family Welfare, New Delhi vide File no-EC/NEW/INST/2020/1133 and also has
                                 Inhouse Scientific Research Committee (SRC)
                             </p>
                         </blockquote>
@@ -320,7 +514,9 @@
                         <h1><i class="fa fa-external-link"></i> Our Faculties for DNB:</h1>
                         <p class="p">1. Dr Krishna Kumar MBBS MD, MRCP-HEAD OF THE DEPARTMENT</p>
                         <p class="p">2. Dr Ajay Ghosh MBBS, DCH, MD(Paed)</p>
-                        <p class="p">3. Dr. Rajesh Kumar MBBS MD(PED) DM(NEONATOLOGY) SENIOR CONSULTANT CUM MEDICAL DIRECTOR
+                        <p class="p">3. Dr. Rajesh Kumar MBBS MD(PED) DM(NEONATOLOGY) SENIOR CONSULTANT CUM
+                            MEDICAL
+                            DIRECTOR
                         </p>
                         <p class="p">4. Dr Shailesh Chandra SENIOR CONSULTANT MBBS MD(PED)</p>
                         <p class="p">5. Dr Khalid Md Saifullah MBBS MD MRCP SENIOR CONSULTANT</p>
@@ -329,12 +525,12 @@
                         <!--  <p class="p">8. Dr Shakti Pad Das MBBS MD (PED) JUNIOR CONSULTANT</p>
                                <p class="p">9. Dr Jai Prakash MBBS MD (PED) JUNIOR CONSULTANT</p>
                          -->
-                       
-                     
+
+
                         <h1><i class="fa fa-external-link"></i> Our Faculties for Pediatric Surgery:</h1>
                         <p class="p">01. Dr Ramanuj Kumar MBBS MS MCh (Ped Surgery)</p>
                         <!--   <p class="p">02. Dr Jainender Kumar MBBS MS MCh (Ped Surgery)</p> -->
-                      
+
                     </div>
                     <hr class="linecolor">
                 </div>
@@ -348,7 +544,7 @@
     <!-- footer starts here -->
     @include('web-views.footer')
     <!-- script tags
-	============================================================= -->
+ ============================================================= -->
     <script>
         $(document).ready(function() {
             $("#Neonatology").show();
@@ -360,6 +556,27 @@
     <script src="js/smoothscroll.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/custom.js"></script>
+
+    <script>
+        // Get the modal
+        var modal = document.getElementById('imagePreviewModal');
+
+        // Get the image and insert it inside the modal - use its "alt" text as a caption
+        var img = document.getElementsByClassName('preview-image')[0];
+        var modalImg = document.getElementById('previewImage');
+        img.onclick = function() {
+            modal.style.display = 'block';
+            modalImg.src = this.src;
+        }
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName('close')[0];
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() {
+            modal.style.display = 'none';
+        }
+    </script>
 </body>
 
 </html>

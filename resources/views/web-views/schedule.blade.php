@@ -499,7 +499,7 @@
 
                     </div>
                     <div class="col-md-12 ">
-                        <h2> Paediatric Gastroenterolgy </h2>
+                        <h2> Paediatric Gastroenterology </h2>
                         <div class="content">
                             <div class="panel panel-success">
                                 <div class="panel-body">
