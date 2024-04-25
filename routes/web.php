@@ -48,6 +48,10 @@ Route::middleware([
         return view('dashboard');
     })->name('dashboard');
 
+    Route::get('/blogsdash', function () {
+        return view('blogsdash');
+    })->name('dashboard');
+
    
     Route::get('user/profile', function () {
         return view('profile.show');

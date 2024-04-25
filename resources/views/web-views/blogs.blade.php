@@ -39,6 +39,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/font-awesome.min.css">
+
     <!-- roboto slab -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
     <!-- roboto slab -->
@@ -276,7 +277,7 @@
 
         //blog style start
 
-         body {
+        body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
@@ -313,17 +314,17 @@
         .blog-card:hover {
             transform: translateY(-5px);
         }
-        
+
         .blog-image {
             width: 100%;
             height: 200px;
             object-fit: cover;
         }
-        
+
         .blog-content {
             padding: 20px;
         }
-        
+
         .blog-title {
             font-size: 20px;
             margin-bottom: 10px;
@@ -335,7 +336,7 @@
         .blog-title:hover {
             color: #0066cc;
         }
-        
+
         .blog-description {
             font-size: 16px;
             line-height: 1.5;
@@ -343,9 +344,83 @@
             overflow: hidden;
             transition: max-height 0.3s ease;
         }
-        
+
         .blog-description.expand {
             max-height: none;
+        }
+        /* Style for Read More link */
+.read-more {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
+
+
+        //blog sidebar css
+
+        /* Style for sidebar cards */
+        .sidebar-card {
+            margin-bottom: 30px;
+            /* Add margin between sidebar cards */
+        }
+
+        /* Style for images in sidebar cards */
+        .sidebar-card img {
+            width: 100%;
+            /* Make images responsive */
+            border-radius: 5px;
+            /* Add border radius to images */
+        }
+
+        /* Style for sidebar sections */
+        .sidebar-section {
+            padding: 20px;
+            /* Add padding inside sidebar sections */
+            background-color: #f8f9fa;
+            /* Set background color for sidebar sections */
+            border-radius: 5px;
+            /* Add border radius to sidebar sections */
+        }
+
+        /* Style for heading of sidebar sections */
+        .sidebar-section h3 {
+            font-size: 18px;
+            /* Adjust heading font size */
+            color: #333;
+            /* Set heading color */
+            margin-bottom: 10px;
+            /* Add margin below heading */
+        }
+
+        /* Style for list items in sidebar */
+        .sidebar-section .blog-list {
+            list-style-type: none;
+            /* Remove default list styles */
+            padding: 0;
+            /* Remove default padding */
+        }
+
+        /* Style for links in sidebar */
+        .sidebar-section .blog-list li a {
+            display: block;
+            /* Make links block-level for full width */
+            padding: 5px 0;
+            /* Add padding to links */
+            color: #666;
+            /* Set link color */
+            text-decoration: none;
+            /* Remove underline from links */
+        }
+
+        /* Style for links on hover in sidebar */
+        .sidebar-section .blog-list li a:hover {
+            color: #007bff;
+            /* Change link color on hover */
         }
     </style>
 </head>
@@ -355,15 +430,17 @@
     <!-- ====================================================
  header section -->
     @include('web-views.menu')
-    <h1>Our Blogs</h1>
+    <h1> Blogs</h1>
 
-    <div class="container">
+    <div class="col-md-8">
         <!-- First Row -->
         <div class="blog-card" onclick="toggleDescription(this)">
             <img src="img/blogs.jpg" alt="Blog Image" class="blog-image">
             <div class="blog-content">
                 <h2 class="blog-title" onclick="toggleDescription(this)">Blog Title 1</h2>
-                <p class="blog-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget felis aliquam, vulputate nulla id, consequat odio.</p>
+                <p class="blog-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget felis
+                    aliquam, vulputate nulla id, consequat odio.</p>
+                     <a href="description-page.html" class="read-more">Read More</a>
             </div>
         </div>
 
@@ -371,7 +448,8 @@
             <img src="img/blogs1.jpg" alt="Blog Image" class="blog-image">
             <div class="blog-content">
                 <h2 class="blog-title" onclick="toggleDescription(this)">Blog Title 2</h2>
-                <p class="blog-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget felis aliquam, vulputate nulla id, consequat odio.</p>
+                <p class="blog-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget felis
+                    aliquam, vulputate nulla id, consequat odio.</p>
             </div>
         </div>
 
@@ -379,21 +457,24 @@
             <img src="img/blogs1.jpg" alt="Blog Image" class="blog-image">
             <div class="blog-content">
                 <h2 class="blog-title" onclick="toggleDescription(this)">Blog Title 3</h2>
-                <p class="blog-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget felis aliquam, vulputate nulla id, consequat odio.</p>
+                <p class="blog-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget felis
+                    aliquam, vulputate nulla id, consequat odio.</p>
             </div>
         </div>
         <div class="blog-card">
             <img src="img/blogs1.jpg" alt="Blog Image" class="blog-image">
             <div class="blog-content">
                 <h2 class="blog-title" onclick="toggleDescription(this)">Blog Title 3</h2>
-                <p class="blog-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget felis aliquam, vulputate nulla id, consequat odio.</p>
+                <p class="blog-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget felis
+                    aliquam, vulputate nulla id, consequat odio.</p>
             </div>
         </div>
         <div class="blog-card">
             <img src="img/blogs1.jpg" alt="Blog Image" class="blog-image">
             <div class="blog-content">
                 <h2 class="blog-title" onclick="toggleDescription(this)">Blog Title 3</h2>
-                <p class="blog-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget felis aliquam, vulputate nulla id, consequat odio.</p>
+                <p class="blog-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget felis
+                    aliquam, vulputate nulla id, consequat odio.</p>
             </div>
         </div>
 
@@ -402,11 +483,52 @@
         <!-- Third Row -->
         <!-- and so on... -->
     </div>
+     <div class="col-md-4">
+            <!-- Sidebar Section: Upcoming Blogs -->
+            <div class="sidebar-card">
+                <img src="img/blogs.jpg" alt="Upcoming Blogs Image">
+                <div class="sidebar-section">
+                    <h3>Upcoming Blogs</h3>
+                    <ul class="blog-list">
+                        <li><a href="#">Upcoming Blog 1</a></li>
+                        <li><a href="#">Upcoming Blog 2</a></li>
+                        <li><a href="#">Upcoming Blog 3</a></li>
+                        <!-- Add more upcoming blogs here -->
+                    </ul>
+                </div>
+            </div>
+            <!-- Sidebar Section: Recent Blogs -->
+            <div class="sidebar-card">
+                <img src="img/blogs1.jpg" alt="Recent Blogs Image">
+                <div class="sidebar-section">
+                    <h3>Recent Blogs</h3>
+                    <ul class="blog-list">
+                        <li><a href="#">Recent Blog 1</a></li>
+                        <li><a href="#">Recent Blog 2</a></li>
+                        <li><a href="#">Recent Blog 3</a></li>
+                        <!-- Add more recent blogs here -->
+                    </ul>
+                </div>
+            </div>
+            <!-- Sidebar Section: List of Blogs -->
+            <div class="sidebar-card">
+                <img src="img/blogs.jpg" alt="All Blogs Image">
+                <div class="sidebar-section">
+                    <h3>List of Blogs</h3>
+                    <ul class="blog-list">
+                        <li><a href="#">Blog 1</a></li>
+                        <li><a href="#">Blog 2</a></li>
+                        <li><a href="#">Blog 3</a></li>
+                        <!-- Add more blogs here -->
+                    </ul>
+                </div>
+            </div>
+        </div>
     <!-- footer starts here -->
     @include('web-views.footer')
     <!-- script tags
  ============================================================= -->
-   <script>
+    <script>
         function toggleDescription(title) {
             var description = title.nextElementSibling;
             description.classList.toggle("expand");
@@ -423,7 +545,7 @@
     <script src="js/smoothscroll.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/custom.js"></script>
-   
+
 </body>
 
 </html>

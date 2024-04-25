@@ -70,24 +70,25 @@
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
                             <ul class="nav navbar-nav navbar-right">
-                                <li><a class="menu" href="/"><i class="fa fa-home"></i> Home</a></li>
-                                <li><a class="menu" href="/about"><i class="fa fa-info-circle"></i> About Us</a>
+                                <li><a class="menu" href="/" style="font-size: 12px;  margin-right: 10px"   ><i class="fa fa-home"></i> Home</a></li>
+                                <li><a class="menu" href="/about" style="font-size: 12px; margin-right: 10px"><i class="fa fa-info-circle" aria-hidden="true"></i>About Us</a>
                                 </li>
-                                <li><a class="menu" href="/service"><i class="fa fa-spinner"></i> Our
+                                <li><a class="menu" href="/service" style="font-size: 12px; margin-right: 10px"><i class="fa fa-medkit" aria-hidden="true"></i> Our
                                         Services </a></li>
-                                <li><a class="menu" href="index.php#Department"><i class="fa fa-external-link"></i>
+                                <li><a class="menu" href="index.php#Department" style="font-size: 12px; margin-right: 10px"><i class="fa fa-users" aria-hidden="true"></i>
                                         Departments</a></li>
-                                <li><a class="menu" href="index.php#team"><i class="fa fa-user-md"></i> Doctors</a>
+                                <li><a class="menu" href="index.php#team" style="font-size: 12px; "><i class="fa fa-user-md"></i> Doctors</a>
                                 </li>
-                                <li><a class="menu" href="/education"><i class="fa fa-book"></i> Academics</a>
+                                <li><a class="menu" href="/education" style="font-size: 12px;"><i class="fa fa-book"></i> Academics</a>
                                 </li>
-                                <li><a class="menu" href="/schedule"><i class="fa fa-calendar"></i> OPD
+                                <li><a class="menu" href="/schedule" style="font-size: 12px;"><i class="fa fa-calendar"></i> OPD
                                         Schedule</a>
                                 </li>
-                                <li><a class="menu" href="index.php#contact"><i class="fa fa-phone"></i> Contact
+                                <li><a class="menu" href="index.php#contact" style="font-size: 12px;"><i class="fa fa-phone"></i> Contact
                                         Us</a>
                                 </li>
-                                <li><a class="menu" href="/blogs"><i class="fa fa-external-link"></i>Our Blogs</a>
+                                
+                                <li><a class="menu" href="/blogs" style="font-size: 12px;"><i class="fa fa-th" aria-hidden="true"></i> Blogs</a>
                                 </li>
 
                                 <!-- <li><a class="menu" href="blog/admin/login.php"><i class="fa fa-sign-in"></i> Sign

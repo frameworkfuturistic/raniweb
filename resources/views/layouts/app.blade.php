@@ -211,7 +211,7 @@
                 <!-- MENU MASTER -->
                 <li class="active"><a href="/dashboard"><i class="icon-home3"></i><span data-i18n="" class="menu-title">Dashboard</span></a>
                 </li>
-                   <li><a href="/blogs"><i class="icon-home3"></i><span data-i18n="" class="menu-title">Blogs </span></a>
+                   <li><a href="/blogsdash"><i class="icon-home3"></i><span data-i18n="" class="menu-title">Product </span></a>
                 </li>
 
                  <!-- 

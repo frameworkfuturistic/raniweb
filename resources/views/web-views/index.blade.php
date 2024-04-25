@@ -1202,7 +1202,8 @@
                         </div>
                         <!-- neonatology-->
                         <!-- General Paediatrics-->
-                        <div class="panel panel-default" data-toggle="collapse" href="#generalpaediatrics">
+                        
+                        {{-- <div class="panel panel-default" data-toggle="collapse" href="#generalpaediatrics">
                             <div class="panel-heading">
                                 <h3 class="panel-title">
                                     <a data-toggle="collapse" href="#generalpaediatrics">General Paediatrics</a>
@@ -1322,7 +1323,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> --}}
                         <!-- /General Paediatrics-->
                         <!--Surgery-->
                         <div class="panel panel-default" data-toggle="collapse" href="#surgery">
@@ -1469,7 +1470,7 @@
                                 </h3>
                             </div>
                             <div id="Anaesthesia" class="panel-collapse collapse">
-                                <div class="panel-body">
+                                {{-- <div class="panel-body">
                                     <div class="col-md-4 col-sm-6">
                                         <div class="section-doctor Pediatrician-doctor">
                                             <p class="doctors-name">Dr JN Jha</p>
@@ -1477,7 +1478,7 @@
                                             <p>Mon To Sat | </p>
                                         </div>
                                     </div>
-                                </div>
+                                </div> --}}
                                 <div class="panel-body">
                                     <div class="col-md-4 col-sm-6">
                                         <div class="section-doctor Pediatrician-doctor">
