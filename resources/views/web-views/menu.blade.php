@@ -88,8 +88,8 @@
                                         Us</a>
                                 </li>
                                 
-                                {{-- <li><a class="menu" href="/blogs" style="font-size: 12px;"><i class="fa fa-th" aria-hidden="true"></i> Blogs</a>
-                                </li> --}}
+                                <li><a class="menu" href="/blog" style="font-size: 12px;"><i class="fa fa-th" aria-hidden="true"></i> Blogs</a>
+                                </li>
 
                                 <!-- <li><a class="menu" href="blog/admin/login.php"><i class="fa fa-sign-in"></i> Sign
                                 In</a></li> -->
