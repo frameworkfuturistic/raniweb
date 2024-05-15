@@ -609,7 +609,8 @@
                                     <blockquote>
                                         <u class="text-danger font-weight-normal bg-danger">
                                             <h3>Available ->
-                                                24*7 </h3>
+                                                24*7  
+                                                contact No. ( 7677711011)</h3>
                                         </u>
                                         <p class="p">
                                             The Pharmacy (outsourced) located on the ground floor of the Hospital caters

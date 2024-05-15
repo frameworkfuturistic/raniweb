@@ -400,7 +400,7 @@
                         <div class="">
                             <div class="marquee" behavior="alternate" direction="left" onmouseover="this.stop();"
                                 onmouseout="this.start();">Emergency No.(24x7) : <i class="fa fa-phone-square"></i>
-                                7677111010, 18002574010</div>
+                                7677111010 </div>
                         </div>
                         <!-- <div class="col-md-3">
                             <div class="marquee">DNB: 7061159186</div>
@@ -1419,8 +1419,8 @@
                                 <div class="panel-body">
                                     <div class="col-md-4 col-sm-6">
                                         <div class="section-doctor Pediatrician-doctor">
-                                            <p class="doctors-name">Dr Rajiv Sinha (Sr. Consultant ) </p>
-                                            <p class="doctors-degree">MBBS, MD(Paed), DM(Nephro)</p>
+                                            <p class="doctors-name">Dr. Rajeev Sinha (Sr. Consultant ) </p>
+                                            <p class="doctors-degree">MBBS, MD(Paed), DM(Nephrology)</p>
                                             <p>Mon To Sat | </p>
                                         </div>
                                     </div>
@@ -1561,7 +1561,7 @@
                                     <div class="col-md-4 col-sm-6">
                                         <div class="section-doctor Pediatrician-doctor">
                                             <p class="doctors-name">Dr. Bhavna Agrwal (Sr. Consultant ) </p>
-                                            <p class="doctors-degree">MBBS, MD(Paed)</p>
+                                            <p class="doctors-degree">MBBS, MD (genetics)</p>
                                             <p>Mon-Sat </p>
                                         </div>
                                     </div>

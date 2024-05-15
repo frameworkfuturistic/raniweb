@@ -7,8 +7,8 @@
                 <li><i class="fa fa-phone"></i> <a class="topno" href="tel:+91 7677111010">+91 7677111010</a></li>
                 <li><i class="fa fa-envelope-o"></i> <a class="topno"
                         href="mailto:info@ranihospital.com">info@ranihospital.com</a></li>
-                <li><i class="fa fa-tty"></i> Toll Free No.:- <a class="topno" href="tel:18002574010"> 18002574010</a>
-                </li>
+                {{-- <li><i class="fa fa-tty"></i> Toll Free No.:- <a class="topno" href="tel:18002574010"> 18002574010</a>
+                </li> --}}
                 <li><i class="fa fa-phone"></i> DNB:- <a class="topno" href="tel:+917061159186"> 7061159186</a></li>
             </ul>
         </div>
@@ -88,7 +88,7 @@
                                         Us</a>
                                 </li>
                                 
-                                <li><a class="menu" href="/blog" style="font-size: 12px;"><i class="fa fa-th" aria-hidden="true"></i> Blogs</a>
+                                <li><a class="menu" href="/blog" style="font-size: 12px;"><i class="fa fa-th" aria-hidden="true"></i> Case Studies </a>
                                 </li>
 
                                 <!-- <li><a class="menu" href="blog/admin/login.php"><i class="fa fa-sign-in"></i> Sign

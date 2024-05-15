@@ -330,8 +330,8 @@
                                                     <tr>
                                                         <td><b> Dr. Vinod Kumar </b> </td>
                                                         <td>MBBS, DCH, Fellow(Neonat)</td>
-                                                        <td>04:00 pm to 04:00 pm</td>
-                                                        <td>Mon,Tues, Wed, Thurs,Fri,Sat,Sun</td>
+                                                        <td>10:00 am to 04:00 pm</td>
+                                                        <td>Mon,Tues, Wed, Thurs,Fri,Sun</td>
 
                                                     </tr>
 
@@ -376,14 +376,14 @@
                                                             <td>04:00 pm to 07:30 pm
                                                             </td>
 
-                                                            <td>Mon,Tues, Wed, Thurs,Fri,Sat</td>
+                                                            <td> Tues,Wed,Thurs,Fri,Sat</td>
                                                         </strong>
                                                     </tr>
                                                     <tr>
                                                         <strong>
                                                             <td><b>Dr. Sailesh Chandra</b></td>
                                                             <td>MBBS, MD(Paed)</td>
-                                                            <td>11:00 am to 02:00 pm (Rani Children Hospiltal) and
+                                                            <td>10:00 am to 02:00 pm (Rani Children Hospiltal) and
                                                                 06:00 pm to 07:00 pm
                                                             </td>
                                                             <td>Mon,Tues, Wed, Thurs,Fri,Sat,Sun</td>
@@ -394,9 +394,9 @@
                                                         <strong>
                                                             <td><b>Dr. Prem Ranjan</b></td>
                                                             <td>MBBS, MD(Paed) </td>
-                                                            <td>10:00 am to 04: pm
+                                                            <td>10:00 am to 03:00 pm
                                                             </td>
-                                                            <td>Mon,Tues, Wed, Thurs,Fri,Sat,Sun</td>
+                                                            <td>Mon,Wed,Thurs,Fri,Sat,Sun</td>
 
                                                         </strong>
                                                     </tr>
@@ -464,7 +464,7 @@
                                                         <strong>
                                                             <td><b>Dr. Ramanuj Kumar</b></td>
                                                             <td>MBBS, MS(Paed Surg.),MCH, JCMR</td>
-                                                            <td>11:30 am to 01:30 pm and 05:00 pm to 06:00 pm
+                                                            <td>11:00 am to 02:30 pm and 05:00 pm to 08:00 pm
                                                             </td>
 
                                                             <td>Mon,Tues, Wed, Thurs,Fri,Sat</td>
@@ -474,9 +474,9 @@
                                                         <strong>
                                                             <td><b>Dr. Md. Imran</b></td>
                                                             <td>MBBS, MCH(Paed Surg.)</td>
-                                                            <td>08:00 am to 11:00 am
+                                                            <td>08:00 am to 11:00 am and 3:00pm to 5:00 pm 
                                                             </td>
-                                                            <td>Mon,Tues, Wed, Thurs,Fri,Sat</td>
+                                                            <td>Mon,Tues, Wed, Thurs,Fri,Sat,Sun</td>
 
                                                         </strong>
                                                     </tr>
@@ -523,7 +523,7 @@
                                                             <td>09:00 am to 04:00 pm
                                                             </td>
 
-                                                            <td>Mon,Tues, Wed, Thurs,Fri,Sat</td>
+                                                            <td>Mon, Wed,Fri </td>
                                                         </strong>
                                                     </tr>
 
@@ -570,7 +570,7 @@
                                                             <td>12:00 pm to 02:00 pm
                                                             </td>
 
-                                                            <td>Mon,Tues, Wed, Thurs,Fri,Sat</td>
+                                                            <td>Mon,Wed,Fri </td>
                                                         </strong>
                                                     </tr>
 
@@ -660,7 +660,7 @@
                                                     <tr>
                                                         <strong>
                                                             <td><b>Dr. Rajeev Sinha</b></td>
-                                                            <td>MBBS, MD</td>
+                                                            <td>MBBS, MD (Nephrology)</td>
                                                             <td>09:00 am to 03:00 pm
                                                             </td>
 
@@ -754,7 +754,7 @@
                                                     <tr>
                                                         <strong>
                                                             <td><b>Dr. Bhavna Agrwal</b></td>
-                                                            <td>MBBS, MD</td>
+                                                            <td>MBBS, MD (genetics)</td>
                                                             <td>11:00 to 03:00 Pm
                                                             </td>
 
