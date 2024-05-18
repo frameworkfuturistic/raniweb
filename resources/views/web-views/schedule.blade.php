@@ -463,11 +463,11 @@
                                                     <tr>
                                                         <strong>
                                                             <td><b>Dr. Ramanuj Kumar</b></td>
-                                                            <td>MBBS, MS(Paed Surg.),MCH, JCMR</td>
+                                                            <td>MBBS, MS(Paed Surg.), MCH(Paed Surg.), JCMR</td>
                                                             <td>11:00 am to 02:30 pm and 05:00 pm to 08:00 pm
                                                             </td>
 
-                                                            <td>Mon,Tues, Wed, Thurs,Fri,Sat</td>
+                                                            <td>Mon,Tues, Wed, Thurs,Fri,Sat,sun</td>
                                                         </strong>
                                                     </tr>
                                                     <tr>
@@ -523,7 +523,7 @@
                                                             <td>09:00 am to 04:00 pm
                                                             </td>
 
-                                                            <td>Mon, Wed,Fri </td>
+                                                            <td>Mon,Tue,Wed,Thus,Fri </td>
                                                         </strong>
                                                     </tr>
 
@@ -707,7 +707,7 @@
                                                     <tr>
                                                         <strong>
                                                             <td><b>Dr. Shyamal Kumar Das</b></td>
-                                                            <td>MBBS, MD(Paed)</td>
+                                                            <td>MBBS, MD(Paed development)</td>
                                                             <td>10:00 am to 04:00 pm
                                                             </td>
 

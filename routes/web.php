@@ -10,6 +10,7 @@ use App\Http\Controllers\UserController;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\CategoryController;
+use App\Http\Controllers\PdfController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -32,9 +33,11 @@ Route::controller(WebPagesController::class)->group(function () {
     Route::get('/service', 'service');
     Route::get('/education', 'education');
     Route::get('/schedule', 'schedule');
+    Route::get('/studymaterial', 'studymaterial');
     // Route::get('/blogs', 'blogs');
 });
 
+Route::get('/download-pdf', [PdfController::class, 'downloadPdf']);
 // Route::get('/', function () {
 //     return Inertia::render('Welcome', [
 //         'canLogin' => Route::has('login'),

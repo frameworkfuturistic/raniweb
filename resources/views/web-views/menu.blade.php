@@ -90,6 +90,8 @@
                                 
                                 <li><a class="menu" href="/blog" style="font-size: 12px;"><i class="fa fa-th" aria-hidden="true"></i> Case Studies </a>
                                 </li>
+                                <li><a class="menu" href="/studymaterial" style="font-size: 12px;"><i class="fa fa-book fa-fw" aria-hidden="true"></i>  Study Aids  </a>
+                                </li>
 
                                 <!-- <li><a class="menu" href="blog/admin/login.php"><i class="fa fa-sign-in"></i> Sign
                                 In</a></li> -->

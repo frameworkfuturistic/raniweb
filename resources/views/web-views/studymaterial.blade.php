@@ -38,6 +38,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <!-- roboto slab -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
@@ -401,6 +402,144 @@
             text-decoration: none;
             cursor: pointer;
         }
+
+        //pdf downaload modal style wire:
+        .modal-content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .preview-image {
+            cursor: pointer;
+
+        }
+
+        .pdf-section {
+    background-color: #f7f9fc;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s, transform 0.3s;
+}
+.pdf-section:hover {
+    background-color: #e9ecef;
+    transform: translateY(-5px);
+}
+.pdf-icon-container {
+    background-color: #007bff;
+    padding: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s, transform 0.3s;
+}
+.pdf-icon {
+    font-size: 50px;
+    color: #fff;
+}
+.pdf-section p {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #007bff;
+}
+.pdf-section:hover .pdf-icon-container {
+    background-color: #0056b3;
+    transform: scale(1.1);
+}
+.pdf-section:hover p {
+    color: #0056b3;
+}
+.modal-header .close {
+    font-size: 1.5rem;
+    color: #007bff;
+    transition: color 0.3s, transform 0.3s;
+}
+.modal-header .close:hover {
+    color: #0056b3;
+    transform: rotate(90deg);
+}
+.modal-header .close span {
+    display: block;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: #f1f1f1;
+}
+.modal-footer .close {
+    font-size: 2rem; /* Increase the font size for better visibility */
+    color: #ff0000; /* Bright red color for high visibility */
+    transition: color 0.3s, transform 0.3s, background-color 0.3s; /* Add transition for color and background */
+    padding: 10px; /* Add padding for a larger clickable area */
+    border-radius: 50%; /* Make the button circular */
+    background-color: #f8d7da; /* Light red background for better contrast */
+}
+
+.modal-footer .close:hover {
+    color: #ffffff; /* Change text color to white on hover */
+    background-color: #dc3545; /* Dark red background on hover */
+    transform: rotate(90deg); /* Rotate icon on hover */
+}
+
+.modal-footer .close span {
+    display: block;
+}
+
+.modal-header .close span:hover {
+    background-color: #e9ecef;
+}
+/* Style for the modal content */
+.modal-content {
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+/* Style for the buttons in the modal */
+.modal-body .btn {
+    border-radius: 20px;
+    font-size: 1rem;
+    padding: 10px 20px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+.modal-body .btn:hover {
+    transform: translateY(-2px);
+}
+.modal-body .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+.modal-body .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004494;
+}
+.modal-body .btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+.modal-body .btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+/* Gradient text effect */
+ .gradient-text {
+           background: linear-gradient(90deg, #ff7e5f, #feb47b); /* Gradient colors */
+            -webkit-background-clip: text;
+            color: transparent;
+            font-size: 24px; /* Increase the text size */
+            font-family: 'Arial', sans-serif; /* Change the font */
+            transition: background 0.3s ease-in-out, font-size 0.3s ease-in-out;
+        }
+
+             /* Hover effect for gradient text */
+        .gradient-text:hover {
+            background: linear-gradient(90deg, #6a11cb, #2575fc); /* Different gradient on hover */
+            -webkit-background-clip: text;
+            color: transparent;
+            font-size: 26px; /* Slightly increase the text size on hover */
+        }
     </style>
 </head>
 
@@ -415,137 +554,64 @@
 
 
     <section class="text-center about" id="about">
-        {{-- <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <!-- DNB -->
-                    <h2>Notice Programs</h2>
-                    <h1><i class="fa fa-spinner"></i> Doctors Notice</h1>
-                    <div class="col-md-6">
-                        <blockquote>
-                            <div class="notice-container" style="margin-top: 20px;">
-                                <!-- Adjust margin-top value as needed -->
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <div class="notice">
-                                                <!-- Centered Heading -->
-                                                <h3 class="text-center">Important Notice</h3>
-                                                <!-- Paragraph Section -->
-                                                <div class="paragraph-section">
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-                                                        accumsan tempor
-                                                        quam,
-                                                        ut scelerisque
-                                                        metus tincidunt eget. Fusce ut venenatis ligula. Lorem ipsum
-                                                        dolor sit amet,
-                                                        consectetur adipiscing elit.
-                                                        Nulla accumsan tempor quam, ut scelerisque metus tincidunt eget.
-                                                        Fusce ut
-                                                        venenatis
-                                                        ligula.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <!-- Demo Image Section -->
-                                            <div class="image-section">
-                                                <img src="img/blogs1.jpg" alt="Demo Image" class="preview-image">
-                                            </div>
-                                        </div>
-                                        <div id="imagePreviewModal" class="modal">
-                                            <span class="close">&times;</span>
-                                            <img class="modal-content" id="previewImage">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </blockquote>
-                    </div>
-
-                    <!-- DNB -->
-                    <!-- ====================================================================================== -->
-
-                    <hr class="linecolor">
-                </div>
-            </div>
-        </div> --}}
-    </section>
-
-    <section class="text-center about" id="about">
         <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <!-- DNB -->
-                    <h2>Educational Programs</h2>
-                    <h1><i class="fa fa-spinner"></i> DNB</h1>
-                    <div class="col-md-6">
-                        <blockquote>
-                            <p class="p">
-                                <i class="fa fa-external-link"></i> Rani Hospital has been accredited by national borad
-                                of
-                                examinations in Medical Sciences for DNB (Pediatrics) course from january 2019 sesion
-                                for
-                                04(Post MD) and 04 (Post Diploma) seats.
-                            </p>
-                            <p class="p"><i class="fa fa-external-link"></i> Also been accredited by National
-                                Board
-                                of
-                                Examinations in Medical Sciences for DNB super speciality course - DrNB (Pediatric
-                                surgery)
-                                from ;july 2021 session for seats.</p>
-                            <p class="p"><i class="fa fa-external-link"></i> The Hospital is also accredited by
-                                national
-                                Board of Examinations in Medical Sciences for Post MBBS Diploma (DCH) course for 04
-                                seats</p>
-                            <p class="p"><i class="fa fa-external-link"></i> For further details please visit the
-                                website:
-                                <a href="www.natboard.edu.in">www.natboard.edu.in</a>
-                            </p>
-                            <p class="p"><i class="fa fa-external-link"></i> In-house registered Instituitional
-                                Ethics Committee (IEC) with Department of Health Research (DHR), Ministry of Health and
-                                Family Welfare, New Delhi vide File no-EC/NEW/INST/2020/1133 and also has
-                                Inhouse Scientific Research Committee (SRC)
-                            </p>
-                        </blockquote>
-                    </div>
-                    <div class="col-md-6">
-                        <img src="img/DNB1.jpg" alt="" style="width: 100%;">
-                    </div>
-                    <!-- DNB -->
-                    <!-- ====================================================================================== -->
-                    <div class="col-md-12">
-                        <h1><i class="fa fa-spinner"></i> Fellowship in neonatology </h1>
-                        <blockquote>
-                            <p class="p">RANI HOSPITAL also runs IAP Neonatology Chapter Fellowship Training
-                                Programme (4 seats per year) </p>
-                        </blockquote>
-                        <h1><i class="fa fa-external-link"></i> Our Faculties for DNB:</h1>
-                        <p class="p">1. Dr Krishna Kumar MBBS MD, MRCP-HEAD OF THE DEPARTMENT</p>
-                        <p class="p">2. Dr Ajay Ghosh MBBS, DCH, MD(Paed)</p>
-                        <p class="p">3. Dr. Rajesh Kumar MBBS MD(PED) DM(NEONATOLOGY) SENIOR CONSULTANT CUM
-                            MEDICAL
-                            DIRECTOR
-                        </p>
-                        <p class="p">4. Dr Shailesh Chandra SENIOR CONSULTANT MBBS MD(PED)</p>
-                        <p class="p">5. Dr Khalid Md Saifullah MBBS MD MRCP SENIOR CONSULTANT</p>
-                        <p class="p">6. Dr Prem Ranjan Kumar MBBS MD (PED) SENIOR CONSULTANT</p>
-                        <p class="p">7. Dr. Amardeep Kumar MBBS MD (PED) SENIOR CONSULTANT</p>
-                        <!--  <p class="p">8. Dr Shakti Pad Das MBBS MD (PED) JUNIOR CONSULTANT</p>
-                               <p class="p">9. Dr Jai Prakash MBBS MD (PED) JUNIOR CONSULTANT</p>
-                         -->
-
-
-                        <h1><i class="fa fa-external-link"></i> Our Faculties for Pediatric Surgery:</h1>
-                        <p class="p">01. Dr Ramanuj Kumar MBBS MS MCh (Ped Surgery)</p>
-                        <!--   <p class="p">02. Dr Jainender Kumar MBBS MS MCh (Ped Surgery)</p> -->
-
-                    </div>
-                    <hr class="linecolor">
+            <div class="row"><div class="col-md-12">
+    <!-- DNB -->
+    <h2>Course materials</h2>
+    <h1><i class="fa fa-spinner"></i> Course materials </h1>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="notice">
+                <!-- Centered Heading -->
+                <h3 class="text-center">Important Course Materials </h3>
+                <!-- Paragraph Section -->
+                <div class="paragraph-section">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+                        accumsan tempor quam,
+                        ut scelerisque metus tincidunt eget. Fusce ut venenatis ligula. Lorem ipsum
+                        dolor sit amet, consectetur adipiscing elit.
+                        Nulla accumsan tempor quam, ut scelerisque metus tincidunt eget. Fusce ut
+                        venenatis ligula.</p>
                 </div>
             </div>
         </div>
+        <div class="col-md-6">
+            <div class="text-center pdf-section">
+                <div class="pdf-icon-container">
+                    <i class="fa fa-file-pdf-o pdf-icon" aria-hidden="true" id="pdfIcon"></i>
+                </div>
+                <p   class="gradient-text" >Click the icon to view PDF options</p>
+            </div>
+        </div>
+    </div>
+    <hr class="linecolor">
+</div>
+               
+
+                            <hr class="linecolor">
+                        </div>
+
+                      <div id="previewModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="previewModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="previewModalLabel">PDF Options</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="text-center modal-body">
+                <button id="previewButton" class="mb-2 btn btn-primary">Preview PDF</button>
+                <button id="downloadButton" class="btn btn-success">Download PDF</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+                    </div>
     </section>
+
+
     <!-- Educational Programs -->
     <br>
     <br>
@@ -557,6 +623,22 @@
     <script>
         $(document).ready(function() {
             $("#Neonatology").show();
+        });
+    </script>
+
+    <script>
+        $(document).ready(function() {
+            $('#pdfIcon').on('click', function() {
+                $('#previewModal').modal('show');
+            });
+
+            $('#previewButton').on('click', function() {
+                window.open('/TestPDFfile.pdf', '_blank');
+            });
+
+            $('#downloadButton').on('click', function() {
+                window.location.href = '/download-pdf';
+            });
         });
     </script>
     <script src="js/jquery-2.1.1.js"></script>

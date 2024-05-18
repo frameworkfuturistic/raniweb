@@ -57,4 +57,8 @@ class WebPagesController extends Controller
     {
         return view('web-views/blogs');
     }
+    public function studymaterial()
+    {
+        return view('web-views/studymaterial');
+    }
 }
