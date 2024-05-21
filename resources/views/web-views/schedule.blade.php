@@ -312,13 +312,13 @@
                                                         <strong>
                                                             <td><b>Dr. Rajesh Kumar</b></td>
                                                             <td>MBBS, MD(Paed), DM(Neonat)</td>
-                                                            <td>09:00 am to 12:00 pm and 03:00 pm to 04:30 pm
+                                                            <td> 3:30 pm to 04:00 pm
                                                             </td>
 
                                                             <td>Mon,Tues, Wed, Thurs,Fri,Sat</td>
                                                         </strong>
                                                     </tr>
-<!-- -->
+                                                    <!-- -->
                                                     <tr>
                                                         <td><b> Dr. Khalid M. Saiffulah </b> </td>
                                                         <td>MBBS, MD(Paed), MRCP</td>
@@ -371,16 +371,6 @@
                                                 <tbody>
                                                     <tr>
                                                         <strong>
-                                                            <td><b>Dr. P.N.S. Munda</b></td>
-                                                            <td>MBBS, MD(Paed), DCH</td>
-                                                            <td>04:00 pm to 07:30 pm
-                                                            </td>
-
-                                                            <td> Tues,Wed,Thurs,Fri,Sat</td>
-                                                        </strong>
-                                                    </tr>
-                                                    <tr>
-                                                        <strong>
                                                             <td><b>Dr. Sailesh Chandra</b></td>
                                                             <td>MBBS, MD(Paed)</td>
                                                             <td>10:00 am to 02:00 pm (Rani Children Hospiltal) and
@@ -390,7 +380,7 @@
 
                                                         </strong>
                                                     </tr>
-                                                    <tr>
+                                                        <tr>
                                                         <strong>
                                                             <td><b>Dr. Prem Ranjan</b></td>
                                                             <td>MBBS, MD(Paed) </td>
@@ -400,6 +390,18 @@
 
                                                         </strong>
                                                     </tr>
+                                                    <tr>
+                                                        <strong>
+                                                            <td><b>Dr. P.N.S. Munda</b></td>
+                                                            <td>MBBS, MD(Paed), DCH</td>
+                                                            <td>04:00 pm to 07:30 pm
+                                                            </td>
+
+                                                            <td> Tues,Wed,Thurs,Fri,Sat</td>
+                                                        </strong>
+                                                    </tr>
+
+
                                                     <!--
                                                      -->
 
@@ -421,7 +423,7 @@
                                                         <td><b> Emergency Doctor </b> </td>
 
                                                         <td></td>
-                                                        <td> 24 Hours  </td>
+                                                        <td> 24 Hours </td>
                                                         <td>Mon,Tues, Wed, Thurs,Fri,Sat,Sun</td>
 
                                                     </tr>
@@ -463,7 +465,7 @@
                                                     <tr>
                                                         <strong>
                                                             <td><b>Dr. Ramanuj Kumar</b></td>
-                                                            <td>MBBS, MS(Paed Surg.), MCH(Paed Surg.), JCMR</td>
+                                                            <td>MBBS, MS, MCH(Paed Surg.), JCMR</td>
                                                             <td>11:00 am to 02:30 pm and 05:00 pm to 08:00 pm
                                                             </td>
 
@@ -474,7 +476,7 @@
                                                         <strong>
                                                             <td><b>Dr. Md. Imran</b></td>
                                                             <td>MBBS, MCH(Paed Surg.)</td>
-                                                            <td>08:00 am to 11:00 am and 3:00pm to 5:00 pm 
+                                                            <td>08:00 am to 11:00 am and 3:00pm to 5:00 pm
                                                             </td>
                                                             <td>Mon,Tues, Wed, Thurs,Fri,Sat,Sun</td>
 
@@ -754,7 +756,7 @@
                                                     <tr>
                                                         <strong>
                                                             <td><b>Dr. Bhavna Agrwal</b></td>
-                                                            <td>MBBS, MD (genetics)</td>
+                                                            <td>MBBS, MD (Genetics)</td>
                                                             <td>11:00 to 03:00 Pm
                                                             </td>
 
